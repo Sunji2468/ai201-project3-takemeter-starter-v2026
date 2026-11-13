@@ -1,7 +1,7 @@
 # AI-labeled batch — 20 comments
 
 These labels and reasons were written by Codex at the user’s request.
-Status: **AI-prelabeled; human review pending**. None are cold annotations.
+Status: **AI-prelabeled; user confirmed all 20 correct in chat on November 13, 2026**. None are cold annotations.
 This batch contains 15 firsthand reports and 5 general responses (75% / 25%);
 that is not a balance check of the full dataset. These examples are no longer
 suitable for an unaided cold batch after their AI labels have been viewed.

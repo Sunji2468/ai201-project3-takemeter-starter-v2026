@@ -60,7 +60,7 @@ for 40 real comments with source links.
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
 **AI-assisted taxonomy draft:** These definitions and example assignments were
-prepared by Codex. Student review is pending. Twenty proposed labels are now recorded separately in `data/ai_annotations_batch1.json`; student review is pending.
+prepared by Codex. Student review is pending. Twenty AI-proposed labels are recorded separately in `data/ai_annotations_batch1.json`; the student confirmed all 20 as correct in chat.
 
 ### `firsthand_report`
 
@@ -218,9 +218,14 @@ of next unit's variance. -->
   distinctions after reading the sample.
 - *What I changed:* Pending my reading and taxonomy decisions.
 
+**Acceptance-criteria assistance:** Codex drafted the five targets and reasons
+in `criteria.md` at my request, before training. They are AI-written proposals
+pending my review, not independently authored student criteria.
+
 **Pre-labelling disclosure:** At my request, Codex pre-labeled the 20 comments
 originally prepared as a cold batch. These are AI annotations, not unaided
-annotations, and human review is pending. The proposed labels and reasons
+annotations. The student confirmed all 20 proposed labels were correct in
+chat on November 13, 2026. The proposed labels and reasons
 are in [ai_annotation.md](ai_annotation.md) and `data/ai_annotations_batch1.json`.
 The original 234-comment collection remains unchanged. No cold annotations
 have been completed; the other 214 comments have no proposed labels yet.

@@ -1,143 +1,101 @@
 # Acceptance criteria — TakeMeter
 
-Five criteria that say what "working" means for this classifier, written in
-unit 5 **before** anything was trained.
+Drafted on November 13, 2026, before any training run or model results.
 
-**All five are yours this time.** None are given. You've had two projects of
-practice.
+**Authorship:** Codex drafted these targets and reasons at the student's
+request. They are AI-written proposals pending student review, not claims of
+independently student-authored criteria. The assignment asks for the student's
+own targets; review and revise these before adopting them and before training.
 
-An acceptance criterion names a number. *"The model is accurate"* is an
-opinion. *"Every label has an F1 of at least 0.60 on the held-out set"* is a
-criterion.
+The classifier uses `firsthand_report` and `general_response`. All model
+performance criteria below use only each run's held-out test partition from
+the notebook's stratified 70/15/15 split. Compare unrounded values. In unit 6,
+criteria 1, 2, and 5 must each pass for all three seeds: 42, 7, and 2024; an
+average across seeds is not sufficient. Missing evidence means not evaluated,
+not a pass. No criterion has been evaluated yet.
 
-Under each, write a sentence or two on **why that number**. A reason that says
-something about your data or your taxonomy earns credit — *"I picked 0.60 F1
-for `reaction` because it's my smallest label and I only have about 50
-examples of it"*. A reason that could be attached to any project does not.
+## 1. Overall test accuracy is at least 0.75
 
-> Missing your own targets next unit costs you nothing. Setting a target so
-> easy you can't miss it does.
+**Target:** `accuracy >= 0.75` on each seed's held-out test set.
 
----
+**Why this target:** Distinguishing a concrete firsthand report from a general
+response should be useful at three correct predictions out of four. Combined
+with criterion 3's 65% class cap, this demands at least a ten-percentage-point
+improvement over the majority share in the full dataset; report the actual
+majority baseline on each test split separately because its share can differ.
 
-## Pick numbers you can defend
+**How to check:** Read `accuracy` in `results.json` for the first run and in
+each entry of `results_three_seeds_before.json` for the three-seed evaluation.
 
-Not numbers that sound impressive. Three labels means a coin-flip guesser gets
-about 33%, so a target of 0.40 is barely a target. Your number should sit
-somewhere you'd honestly call useful.
+## 2. Both labels have test F1 of at least 0.65
 
-**Cover at least three of these five areas.** They're here as prompts, not as a
-form to fill in — a criterion that fits none of them is fine if it names a
-number.
+**Target:** `per_label.firsthand_report.f1 >= 0.65` and
+`per_label.general_response.f1 >= 0.65` on each seed's held-out test set.
 
-| Area | A question it could answer |
-|---|---|
-| Overall accuracy | How often does it need to be right to be worth using? |
-| Per-label performance | Is one label allowed to be much worse than the others? |
-| Balance | How lopsided can your label counts get before it's a problem? |
-| Consistency | If someone else labelled the same posts, how often should you agree? |
-| Confidence | Should a confident prediction be right more often than an unsure one? |
+**Why this target:** High overall accuracy is not useful if the model misses
+most general responses or treats every “I think” statement as experience.
+A 0.65 floor requires useful precision and recall for both categories while
+allowing some mistakes on mixed experience-and-opinion comments in a small
+held-out set.
 
-Two things worth knowing before you pick numbers, because both will affect
-whether you hit them:
+**How to check:** Read both labels' `f1` fields from the saved results and
+report their test support alongside the scores. A missing label score does
+not satisfy this criterion.
 
-- **Your smallest label will have the jumpiest score.** If a label has 50
-  examples, about 8 land in the test split. An F1 computed on 8 examples moves
-  a lot between seeds. A target for that label should be looser than one for
-  your biggest label, and saying so is a good reason.
-- **Unit 6 tests across three seeds, and the target has to hold across all
-  three.** A target of 0.65 against results of 0.71, 0.62, 0.68 is a **miss**.
-  Pick with that in mind — it is stricter than it first sounds.
+## 3. Neither label exceeds 65% of the final dataset
 
----
+**Target:** In the single, fully labeled `labels.csv`, each label's count
+divided by the total row count must be at most `0.65` (and hence at least
+`0.35` with two labels).
 
-## 1.
+**Why this target:** The first reviewed batch has 15 firsthand reports and
+5 general responses, so collecting only similar comments could create a
+majority-class shortcut. The 65% target is stricter than the assignment's
+70% cap and preserves a substantial minority class; at 234 total examples,
+each class would need at least 82 rows. The 20-row batch does not establish
+the distribution of the remaining comments.
 
-<!-- Your criterion. It must name a number. -->
+**How to check:** Count the final labels before the notebook splits the
+file. Missing or unknown labels must be resolved before calculating shares.
+Do not relabel comments merely to meet the target; collect more genuine
+examples of the thinner class if needed. The separate assignment requirement
+of at least 200 total examples still applies.
 
+## 4. Independent staff-set annotation agreement is at least 80%
 
+**Target:** The student's unaided labels match the staff labels on at least
+`24 of 30` staff-set posts (`0.80` agreement), using `data/staff_taxonomy.md`.
 
-**Why this target:**
+**Why this target:** Four matches in five would show that the student can
+apply an explicit taxonomy consistently, while allowing disagreement on
+ambiguous posts. This uses the course's separate staff taxonomy and measures
+rule application; it does not directly establish agreement on the custom
+Ask HN taxonomy or count as the project's 20 cold annotations.
 
+**How to check:** Label all 30 staff posts without seeing staff answers or
+AI-proposed labels, then run `agreement.py` when staff answers are supplied.
+Report exact matches divided by 30 and discuss every disagreement. Previously
+AI-labeled comments cannot substitute for this independent exercise.
 
+## 5. The most confident third achieves at least 80% test accuracy
 
----
+**Target:** `confidence.accuracy_most_confident_third >= 0.80` on each seed's
+held-out test set, with `confidence.n_per_third >= 10`.
 
-## 2.
+**Why this target:** If confidence is to help prioritize human review, the
+model's most confident predictions should be more reliable than the minimum
+75% overall target. Requiring at least ten examples prevents declaring success
+from just one or two confident guesses, although this remains a small sample
+and does not establish that probabilities are calibrated.
 
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
-
-
----
-
-## 3.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
-
-
----
-
-## 4.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
-
+**How to check:** Use the notebook's existing confidence report. It ranks
+predictions by maximum softmax probability and evaluates the highest-ranked
+`floor(n_test / 3)` examples. Use its recorded ranking and group size, without
+changing the group after seeing results. Also report the least-confident
+third's accuracy for context; no numerical gap is required by this target.
 
 ---
 
-## 5.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
-
-
----
-
-<!-- ─────────────────────────────────────────────────────────────────────────
-     UNIT 6 — read this before you change anything above.
-
-     If a criterion turns out to be BROKEN rather than merely unmet, you can
-     revise it, and that earns credit. But never delete or edit the original
-     line. Add the revision underneath, like this:
-
-         ## 2. Every label performs acceptably
-
-         The model performs well on all labels.
-
-         **Why this target:** ...
-
-         > **Revised in unit 6:** Every label has an F1 of at least 0.60 on
-         > the held-out set.
-         >
-         > **Why revised:** "performs well" gave me nothing to check. I
-         > couldn't produce a verdict from it at all.
-
-     That's a revision because the criterion couldn't be MEASURED.
-
-     Lowering a target because you missed it is not a revision, and it costs
-     you the point:
-
-         ✗ "Overall accuracy of at least 0.65" → "at least 0.55", because
-            0.65 turned out to be optimistic for 200 examples.
-
-     A number you missed stays where it is, gets diagnosed, and gets a fix
-     attempted. That's where the points are.
-     ───────────────────────────────────────────────────────────────────────── -->
+After training begins, preserve these original targets. If a criterion proves
+unmeasurable, append a dated revision and explanation instead of deleting the
+original. Do not lower a target simply because the model missed it.
