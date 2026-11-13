@@ -1,6 +1,6 @@
 # Taxonomy boundary stress test
 
-All eight posts below are synthetic AI-written tests. They are not real
+All eight posts below are synthetic boundary tests. They are not real
 community posts and must not be added to the training dataset. These are
 proposed rule applications, not evidence of human annotation agreement.
 

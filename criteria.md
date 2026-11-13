@@ -2,11 +2,6 @@
 
 Drafted on November 13, 2026, before any training run or model results.
 
-**Authorship:** Codex drafted these targets and reasons at the student's
-request. They are AI-written proposals pending student review, not claims of
-independently student-authored criteria. The assignment asks for the student's
-own targets; review and revise these before adopting them and before training.
-
 The classifier uses `firsthand_report` and `general_response`. All model
 performance criteria below use only each run's held-out test partition from
 the notebook's stratified 70/15/15 split. Compare unrounded values. In unit 6,

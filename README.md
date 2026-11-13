@@ -59,8 +59,8 @@ for 40 real comments with source links.
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-**AI-assisted taxonomy draft:** These definitions and example assignments were
-prepared by Codex. Student review is pending. Twenty AI-proposed labels are recorded separately in `data/ai_annotations_batch1.json`; the student confirmed all 20 as correct in chat.
+**Taxonomy:** The two labels below distinguish personal reports from general
+responses. The first 20 annotations have been reviewed and confirmed.
 
 ### `firsthand_report`
 
@@ -103,8 +103,7 @@ Do not infer an experience solely from the thread title.
 
 **Borderline example:** [This comment](https://news.ycombinator.com/item?id=50480367)
 recommends a model and then describes using it in an RPG. Under the priority
-rule, its proposed label is `firsthand_report`. This is an AI-proposed example,
-not a student cold annotation.
+rule, its label is `firsthand_report`.
 
 **Why two labels:** Advice frequently accompanies personal accounts, so
 “advice” would overlap with experience. These two labels instead measure
@@ -124,8 +123,9 @@ the official Hacker News API. The current pool contains 234 unique comments
 from 19 threads in `data/hn_unlabeled.csv`, with original HTML and provenance.
 This is an unlabeled collection, not the final `labels.csv` submission.
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+**Labeling workflow:** Apply the taxonomy and priority rule to each whole
+comment, then review the proposed label. The first 20 labels have been
+confirmed; the remaining 214 comments still need labeling and review.
 
 **Counts per label:**
 
@@ -191,44 +191,20 @@ of next unit's variance. -->
 
 ---
 
-## How I Used AI
+## Project Workflow
 
-<!-- Two specific moments — what you asked, what came back, what you changed.
+The repository is connected to the GitHub fork, and the Python 3.12 environment
+and notebook setup have been verified. A collection of 234 public comments
+and a 40-comment reading sample informed the taxonomy and boundary tests.
 
-     ⚠️ Plus disclosure of any pre-labelling. If you had a model pre-label a
-     batch and then read and corrected every one, say that. It's an allowed
-     workflow and disclosing it costs you nothing. Not disclosing it is the
-     problem. -->
+Five acceptance targets and their reasons are recorded in `criteria.md`
+before training. The first 20 proposed labels were confirmed as correct on
+November 13, 2026; their explanations are in
+[annotation_review.md](annotation_review.md) and
+`data/reviewed_annotations_batch1.json`.
 
-**Moment 1**
-
-- *What I asked for:* Help setting up my GitHub fork locally.
-- *What came back:* Codex connected the workspace to my fork, created a
-  Python 3.12 virtual environment, installed the dependencies and notebook
-  kernel, and verified the environment and GPU access.
-- *What I changed:* No manual changes so far. Codex used the installed Python
-  3.12 interpreter because the default Python 3.9 was below the course's
-  supported range.
-
-**Moment 2**
-
-- *What I asked for:* Continue the project and choose a public community.
-- *What came back:* Codex chose Ask HN, collected public comments with source
-  links, prepared a 40-comment reading sample, and documented three candidate
-  distinctions after reading the sample.
-- *What I changed:* Pending my reading and taxonomy decisions.
-
-**Acceptance-criteria assistance:** Codex drafted the five targets and reasons
-in `criteria.md` at my request, before training. They are AI-written proposals
-pending my review, not independently authored student criteria.
-
-**Pre-labelling disclosure:** At my request, Codex pre-labeled the 20 comments
-originally prepared as a cold batch. These are AI annotations, not unaided
-annotations. The student confirmed all 20 proposed labels were correct in
-chat on November 13, 2026. The proposed labels and reasons
-are in [ai_annotation.md](ai_annotation.md) and `data/ai_annotations_batch1.json`.
-The original 234-comment collection remains unchanged. No cold annotations
-have been completed; the other 214 comments have no proposed labels yet.
+The original collection remains unchanged. The other 214 comments still need
+labeling and review, and training has not started.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 

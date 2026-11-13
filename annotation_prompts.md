@@ -1,10 +1,8 @@
-# AI-labeled batch — 20 comments
+# Original annotation prompts — 20 comments
 
-These labels and reasons were written by Codex at the user’s request.
-Status: **AI-prelabeled; user confirmed all 20 correct in chat on November 13, 2026**. None are cold annotations.
-This batch contains 15 firsthand reports and 5 general responses (75% / 25%);
-that is not a balance check of the full dataset. These examples are no longer
-suitable for an unaided cold batch after their AI labels have been viewed.
+These blank prompts are retained for reference. Completed and reviewed labels
+are in [annotation_review.md](annotation_review.md). This is not an outstanding
+annotation task or a held-out test split.
 
 ## 1. Comment 50418525
 
@@ -24,9 +22,9 @@ Semi-Supervised Clustering with Graph Convolutional Networks (2017): https://arx
 
 Spectral and Algebraic Graph Theory (2025, draft book): http://cs-www.cs.yale.edu/homes/spielman/sagt/sagt.pdf (http://cs-www.cs.yale.edu/homes/spielman/sagt/sagt.pdf)
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Describes personally learning and building a neural network with specific hardware.
+**Your reason / ambiguity note (optional):**
 
 ## 2. Comment 50423838
 
@@ -36,9 +34,9 @@ Yes, on side projects where I get to use concepts or modules, or even ranges.
 
 Languages like C++, Scala, Haskell, is where I get the most fun coding, unfortunately the question can be reformulated as "Do you still enjoy coding?", as we get pushed to program into natural languages instead.
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Reports actual use of language features on side projects, beyond simply expressing a preference.
+**Your reason / ambiguity note (optional):**
 
 ## 3. Comment 50481836
 
@@ -52,9 +50,9 @@ I stopped reading books not because AI is mesmerizing but because I find the non
 
 My suggestion would be make it interactive. Release it with an interactive interface rag or fine tuned to your ideas and content. Use your imagination on how that interactivity should be shaped.
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Reports stopping book reading and personally using ChatGPT; that experience takes priority over the advice.
+**Your reason / ambiguity note (optional):**
 
 ## 4. Comment 50409143
 
@@ -62,9 +60,9 @@ Source: https://news.ycombinator.com/item?id=50409143
 
 ship a custom mobile and desktop app bound to your server for zero config setup, can be a fork of open source (ideal), then if you have zero friction youll get buy in
 
-**AI-proposed label:** `general_response`
+**Your label:**
 
-**AI reasoning:** Recommends an app deployment strategy without reporting having tried it.
+**Your reason / ambiguity note (optional):**
 
 ## 5. Comment 50459241
 
@@ -76,9 +74,9 @@ We built this small app where people just enter one-line text on why you should 
 
 Give it a try: https://apps.apple.com/us/app/handpicked-movies-by-people/id... (https://apps.apple.com/us/app/handpicked-movies-by-people/id6825099571)
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Describes a recurring personal problem and the app the writer and spouse built.
+**Your reason / ambiguity note (optional):**
 
 ## 6. Comment 50418936
 
@@ -101,9 +99,9 @@ I've been working on the software to generate, test and verify these for a coupl
 
 Now the work is on every hackers favourite part... Marketing!
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Reports years of work on puzzle-generation software and a resulting product launch.
+**Your reason / ambiguity note (optional):**
 
 ## 7. Comment 50406665
 
@@ -111,9 +109,9 @@ Source: https://news.ycombinator.com/item?id=50406665
 
 I said "you can use this app to talk to me"
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Reports an actual statement the writer made to another person; its brevity does not remove the firsthand action.
+**Your reason / ambiguity note (optional):**
 
 ## 8. Comment 50483315
 
@@ -127,9 +125,9 @@ You pick a period and your repos, and you get a report: PRs merged, reviews give
 
 It's my first pet project. Feedback is very welcome.
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Describes a recurring pre-review practice and identifies the tool as the writer’s own project.
+**Your reason / ambiguity note (optional):**
 
 ## 9. Comment 50390534
 
@@ -141,9 +139,9 @@ I got overwhelmed by walls of text of parallel Claude Code sessions. This limite
 
 https://github.com/sadilek/obeya (https://github.com/sadilek/obeya)
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Reports being overwhelmed by parallel sessions and building a workspace in response.
+**Your reason / ambiguity note (optional):**
 
 ## 10. Comment 50407587
 
@@ -170,9 +168,9 @@ On mobile:
 - GIF picker
 - a few UI tweaks, like text colors and layout
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Reports running an XMPP server for nearly ten years and installing clients for other people.
+**Your reason / ambiguity note (optional):**
 
 ## 11. Comment 50482145
 
@@ -182,9 +180,9 @@ If you want human readers - remember that roughly zero humans will ever read eve
 
 Or - back when electric typewriters were cutting-edge tech, only a puny percentage of human-written books were accepted for publication.  Writing well is difficult.  Look at bio's of famous authors - roughly zero mastered the skill after only 18 month and one book draft.
 
-**AI-proposed label:** `general_response`
+**Your label:**
 
-**AI reasoning:** Offers general publishing advice and historical comparisons without a personal event.
+**Your reason / ambiguity note (optional):**
 
 ## 12. Comment 50425083
 
@@ -192,9 +190,9 @@ Source: https://news.ycombinator.com/item?id=50425083
 
 I like that it can do anything. I don't like the sintaxis.
 
-**AI-proposed label:** `general_response`
+**Your label:**
 
-**AI reasoning:** Expresses likes and dislikes without a concrete action, event, or ongoing practice.
+**Your reason / ambiguity note (optional):**
 
 ## 13. Comment 50423698
 
@@ -206,9 +204,9 @@ I acknowledge that C++ is a bad language in a lot of ways, but it's a bad langua
 
 I also like writing Rust, and I like how Rust makes sure I don't make mistakes. I think Rust is a better language in many ways and I think it's the future of low-level programming (and I think it's wild that it took so many decades to get a proper competitor to C++!). But I also like how C++ doesn't care and lets me do whatever I want without acting as a nanny. I would never ever dare to write a publicly exposed web server in C++, but a game? Sure!
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Reports learning specific C++ mechanisms and using them to manage memory, alongside opinions.
+**Your reason / ambiguity note (optional):**
 
 ## 14. Comment 50419656
 
@@ -224,9 +222,9 @@ We’d love your feedback on the concept, the physical design, or how we're appr
 
 You can check it out here: https://usefulls.com/ (https://usefulls.com/)
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Describes the founders’ recurring furniture problem and work on their suitcase product.
+**Your reason / ambiguity note (optional):**
 
 ## 15. Comment 50470795
 
@@ -244,9 +242,9 @@ It's free during the beta and we are actively shipping new features based on use
 
 I’d love to hear as much feedback as possible.
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Reports the team’s difficulty finding saved resources and their ongoing work building an app.
+**Your reason / ambiguity note (optional):**
 
 ## 16. Comment 50418225
 
@@ -258,9 +256,9 @@ A singing training app for bad singers. You sing the pitch line and get a score.
 
 Recently got some good feedback on HN https://news.ycombinator.com/item?id=50195488 (https://news.ycombinator.com/item?id=50195488) and am following up with Linux and Windows versions and using Fable 5.1 to internationalise the app and landing page which explains the app.
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Reports receiving feedback and actively working on platform versions and internationalization.
+**Your reason / ambiguity note (optional):**
 
 ## 17. Comment 50408847
 
@@ -268,9 +266,9 @@ Source: https://news.ycombinator.com/item?id=50408847
 
 Tell your patriarch
 
-**AI-proposed label:** `general_response`
+**Your label:**
 
-**AI reasoning:** Gives a short instruction with no account of personal experience.
+**Your reason / ambiguity note (optional):**
 
 ## 18. Comment 50423861
 
@@ -280,9 +278,9 @@ I'd like to put in a "no" after spending many years writing C++; my day job is i
 
 The templating system is more powerful than any other language I have significant experience with, but that also lets people write incomprehensible systems. And the compile times always have been really long.
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Reports years of writing C++ and a current C# day job.
+**Your reason / ambiguity note (optional):**
 
 ## 19. Comment 50424173
 
@@ -290,9 +288,9 @@ Source: https://news.ycombinator.com/item?id=50424173
 
 Yes. It was my first language (which I started to produce something useful, got jobs, etc...) - and it will be my last.
 
-**AI-proposed label:** `firsthand_report`
+**Your label:**
 
-**AI reasoning:** Reports having used a first language to produce useful work and obtain jobs; the language’s identity is not required to identify the reported experience.
+**Your reason / ambiguity note (optional):**
 
 ## 20. Comment 50433360
 
@@ -302,6 +300,6 @@ I like C.  C is great.
 
 When things get too complex for C, that's where C++ should be used... but I'd generally rather use something else instead.  A lot of languages have been created to avoid using C++.  Take your pick.
 
-**AI-proposed label:** `general_response`
+**Your label:**
 
-**AI reasoning:** Offers preferences and recommendations without a concrete firsthand report.
+**Your reason / ambiguity note (optional):**

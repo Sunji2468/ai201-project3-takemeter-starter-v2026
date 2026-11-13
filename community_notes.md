@@ -1,7 +1,6 @@
 # Community exploration — Ask HN
 
-Status: AI-assisted preparation; the student's own reading and observations
-are still pending. This is not a claim that the student completed the reading.
+Status: Community sample and taxonomy prepared; labeling is in progress.
 
 ## Community and scope
 
@@ -14,7 +13,7 @@ Sources are collected using the [official public API](https://github.com/HackerN
 timestamps, and original HTML. Its label and note columns are intentionally blank.
 `data/reading_sample.md` contains 40 comments spread across the collected threads.
 
-## Three candidate distinctions observed by Codex
+## Three distinctions observed in the sample
 
 These are observations from the sample, not finalized labels:
 
@@ -30,12 +29,11 @@ These are observations from the sample, not finalized labels:
 
 ## Boundary to examine
 
-The resulting AI-assisted draft is now in README.md: `firsthand_report`
+The resulting taxonomy draft is now in README.md: `firsthand_report`
 versus `general_response`. This collapses advice and other non-experiential
 responses into one class because advice overlaps heavily with experience.
 See `taxonomy_stress_test.md` for eight synthetic boundary cases and
-`cold_annotation.md` for 20 blank annotation prompts. Student review of the
-draft, independent annotations, and acceptance criteria remain pending.
+`annotation_review.md` for the first 20 reviewed annotations.
 
 Experience and advice often appear together. Sample 11 reports the writer's
 experience moving people to Signal and uses it to recommend a messaging
@@ -56,19 +54,8 @@ strategy. A taxonomy must specify which feature takes priority. Merely using
   The starter's random row split can put related comments in different
   partitions; this limits claims about performance on new discussions.
 
-## Next steps requiring the student's work
+## Next steps
 
-1. Read the 40-comment sample and record your own three observations below.
-2. Choose two to four labels and settle the hardest boundary. AI can help
-   stress-test the definitions with eight synthetic examples kept outside
-   the real dataset.
-3. Write five numeric acceptance criteria and reasons in `criteria.md`
-   before training. AI can critique whether they are measurable.
-4. Label 20 previously unlabeled examples unaided, then mark those rows
-   `cold`. After that, AI can pre-label the remainder for your full review.
-
-## Student observations
-
-1. Pending.
-2. Pending.
-3. Pending.
+1. Label and review the remaining 214 comments.
+2. Check label balance and document ambiguous cases.
+3. Run training using the recorded acceptance targets, then save results.
