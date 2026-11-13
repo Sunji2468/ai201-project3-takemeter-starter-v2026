@@ -2,6 +2,10 @@
 
 Use the definitions in README.md. Assign each comment `firsthand_report` or
 `general_response` yourself, without AI help. Every answer is currently blank.
+**Superseded:** Codex has now labeled this batch in [ai_annotation.md](ai_annotation.md).
+Do not use it as evidence of unaided annotation. The original blank prompts
+are retained for provenance.
+
 These comments were selected with seed 42, excluding the reading packet and
 README examples. They are not a held-out test split: all will later join the
 single labeled dataset. Do not mark them `cold` until you actually label them.
