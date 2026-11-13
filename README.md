@@ -42,6 +42,11 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
+TakeMeter will classify whole top-level comments from public Ask HN discussions
+on Hacker News. The taxonomy is still being designed from actual comments;
+no model has been trained yet. See [community_notes.md](community_notes.md)
+for candidate distinctions and [the reading sample](data/reading_sample.md)
+for 40 real comments with source links.
 
 
 ---
@@ -91,7 +96,10 @@
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
 
-**Where the posts came from:**
+**Where the posts came from:** Public Ask HN discussions, collected through
+the official Hacker News API. The current pool contains 234 unique comments
+from 19 threads in `data/hn_unlabeled.csv`, with original HTML and provenance.
+This is an unlabeled collection, not the final `labels.csv` submission.
 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
@@ -137,6 +145,15 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
+**Setup status (November 13, 2026):** The local `.venv` uses Python 3.12.12
+with the project requirements and `ipykernel` installed. The environment
+check passed all nine checks with no failures; the baseline model has not
+been downloaded yet. `pip check` found no broken requirements. The notebook's
+first setup cell executed successfully. Apple Silicon GPU (`mps`) availability
+and a tensor operation were verified outside the restricted execution sandbox.
+Training has not started; the actual run's device and metrics will be recorded
+after the dataset and acceptance criteria are ready.
+
 **Base model:**
 
 **Settings:** <!-- epochs, learning rate, batch size, seed -->
@@ -162,17 +179,25 @@ of next unit's variance. -->
 
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Help setting up my GitHub fork locally.
+- *What came back:* Codex connected the workspace to my fork, created a
+  Python 3.12 virtual environment, installed the dependencies and notebook
+  kernel, and verified the environment and GPU access.
+- *What I changed:* No manual changes so far. Codex used the installed Python
+  3.12 interpreter because the default Python 3.9 was below the course's
+  supported range.
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* Continue the project and choose a public community.
+- *What came back:* Codex chose Ask HN, collected public comments with source
+  links, prepared a 40-comment reading sample, and documented three candidate
+  distinctions after reading the sample.
+- *What I changed:* Pending my reading and taxonomy decisions.
 
-**Pre-labelling disclosure:**
+**Pre-labelling disclosure:** No comments have been pre-labeled yet. All 234
+collected comments have blank labels. The first 20 cold annotations and the
+student's review are still pending.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
