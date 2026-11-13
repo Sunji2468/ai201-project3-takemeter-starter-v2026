@@ -43,7 +43,7 @@
      sentences. -->
 
 TakeMeter will classify whole top-level comments from public Ask HN discussions
-on Hacker News. The taxonomy is still being designed from actual comments;
+on Hacker News. A two-label draft distinguishes firsthand reports from general responses;
 no model has been trained yet. See [community_notes.md](community_notes.md)
 for candidate distinctions and [the reading sample](data/reading_sample.md)
 for 40 real comments with source links.
@@ -59,35 +59,58 @@ for 40 real comments with source links.
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+**AI-assisted taxonomy draft:** These definitions and example assignments were
+prepared by Codex. Student review is pending. No dataset rows have been labeled.
 
-**Definition:**
+### `firsthand_report`
 
-**Example 1:**
+**Definition:** The writer reports a concrete event, action, observation, or ongoing practice they personally experienced, including a specific tool they actually use or work they actually perform.
+
+**Example 1:** [Original comment](https://news.ycombinator.com/item?id=50481224)
+
+> Same. An hour ago, had 10 minutes of auth failures before it resolved. Just happened again with all my claude cli agents halting for auth.
 >
+> https://status.claude.com/history (https://status.claude.com/history)
 
-**Example 2:**
->
+**Example 2:** [Original comment](https://news.ycombinator.com/item?id=50405770)
 
-### `label_two`
+> I was in a very different situation. Microsoft decided to stop supporting Skype, which we had been using for 15 or so years. We moved to Matrix.
 
-**Definition:**
+### `general_response`
 
-**Example 1:**
->
+**Definition:** The comment contains no concrete firsthand report by its writer and instead offers an opinion, explanation, recommendation, question, prediction, or reaction.
 
-**Example 2:**
->
+**Example 1:** [Original comment](https://news.ycombinator.com/item?id=50481259)
+
+> I value human work more than AI - especially if that book is fiction rather than some technical documentation.
+
+**Example 2:** [Original comment](https://news.ycombinator.com/item?id=50426119)
+
+> Everything after C++14 is useless bloat that actively makes the language worse and more convoluted.
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `firsthand_report` and `general_response`.
 
-**The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+**Decision rule:** Read only the comment text. If the writer describes at
+least one concrete firsthand event or practice, choose `firsthand_report`,
+even when the rest is advice or opinion. Otherwise choose `general_response`.
+“I think,” “I prefer,” hypothetical plans, and rhetorical questions alone do
+not establish experience. A quoted story from another writer does not count
+as the current writer’s experience. A clearly implied first-person account
+(such as “Same. An hour ago, had 10 minutes of auth failures”) does count.
+Do not infer an experience solely from the thread title.
 
+**Borderline example:** [This comment](https://news.ycombinator.com/item?id=50480367)
+recommends a model and then describes using it in an RPG. Under the priority
+rule, its proposed label is `firsthand_report`. This is an AI-proposed example,
+not a student cold annotation.
 
+**Why two labels:** Advice frequently accompanies personal accounts, so
+“advice” would overlap with experience. These two labels instead measure
+whether a response contains firsthand experience; they do not grade truth,
+usefulness, or writing quality. Eight synthetic boundary tests are recorded
+in [taxonomy_stress_test.md](taxonomy_stress_test.md).
 
 ---
 

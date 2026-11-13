@@ -30,6 +30,13 @@ These are observations from the sample, not finalized labels:
 
 ## Boundary to examine
 
+The resulting AI-assisted draft is now in README.md: `firsthand_report`
+versus `general_response`. This collapses advice and other non-experiential
+responses into one class because advice overlaps heavily with experience.
+See `taxonomy_stress_test.md` for eight synthetic boundary cases and
+`cold_annotation.md` for 20 blank annotation prompts. Student review of the
+draft, independent annotations, and acceptance criteria remain pending.
+
 Experience and advice often appear together. Sample 11 reports the writer's
 experience moving people to Signal and uses it to recommend a messaging
 strategy. A taxonomy must specify which feature takes priority. Merely using
