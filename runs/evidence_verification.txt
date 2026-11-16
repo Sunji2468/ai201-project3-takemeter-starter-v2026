@@ -3,4 +3,5 @@ PASS: six trials' scores, matrices, supports, and confidence thirds recomputed.
 PASS: before/after data, seeds, test posts, and settings match; only epochs changed.
 PASS: baseline and original trained model use the same 36 posts.
 Dataset: {'general_response': 87, 'firsthand_report': 147}
-PENDING: 30/30 independent staff labels blank; staff answer key present: False.
+PASS: AI-to-staff agreement recomputed: 29/30; all disagreements adjudicated.
+LIMITATION: AI-assisted labels do not establish the unaided-student criterion.

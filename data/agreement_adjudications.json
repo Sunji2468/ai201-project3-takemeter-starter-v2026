@@ -1,0 +1,15 @@
+{
+  "author": "Codex (AI)",
+  "unaided_student_work": false,
+  "adjudications": [
+    {
+      "text": "Times are down about 3% since the shoe rules changed, so obviously the shoes are the whole story and the sport has a problem.",
+      "staff": "hot_take",
+      "mine": "analysis",
+      "id": "sp_014",
+      "category": "c",
+      "call": "Retain analysis as a defensible alternative; staff hot_take remains plausible.",
+      "reason": "The explicit since/so construction makes the statistic a causal premise. Rule 1 does not clearly distinguish weak or overstated inference from decorative evidence, and its examples support both readings. This interpretation disagreement does not establish an answer-key error."
+    }
+  ]
+}

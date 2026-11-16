@@ -92,14 +92,36 @@ def main():
         for metric in ("precision", "recall", "f1", "support"):
             close(recalculated["per_label"][label][metric], baseline["scores"]["per_label"][label][metric])
     staff = read_csv("my_staff_labels.csv")
-    assert [r["text"] for r in staff] == [r["text"] for r in read_csv("data/staff_posts.csv")]
+    posts = read_csv("data/staff_posts.csv")
+    assert len(staff) == len(posts) == 30
+    assert [r["text"] for r in staff] == [r["text"] for r in posts]
+    key_rows = read_csv("data/staff_labels.csv")
+    key = {r["id"]: r["label"] for r in key_rows}
+    assert len(key) == len(key_rows) == 30
+    assert set(key) == {r["id"] for r in posts}
+    assert all(r["label"] in {"analysis", "hot_take", "reaction"} for r in staff + key_rows)
+    disagreements = [{"text": post["text"], "staff": key[post["id"]], "mine": mine["label"]}
+                     for post, mine in zip(posts, staff) if key[post["id"]] != mine["label"]]
+    agreement = read_json("agreement_results.json")
+    assert agreement["compared"] == 30 and agreement["staff_posts_not_in_mine"] == 0
+    assert agreement["agreed"] == 30 - len(disagreements)
+    assert agreement["disagreements"] == disagreements
+    close(agreement["agreement_rate"], agreement["agreed"] / 30)
+    provenance = read_json("data/ai_staff_annotations.json")
+    assert provenance["unaided_student_work"] is False
+    assert provenance["labels_sha256"] == hashlib.sha256((ROOT / "my_staff_labels.csv").read_bytes()).hexdigest()
+    adjudications = read_json("data/agreement_adjudications.json")["adjudications"]
+    assert len(adjudications) == len(disagreements)
+    assert {r["text"] for r in adjudications} == {r["text"] for r in disagreements}
+    for decision in adjudications:
+        assert decision["category"] in {"a", "b", "c"} and decision["reason"] and decision["call"]
     print("PASS: 234 original texts and 20 reviewed labels preserved.")
     print("PASS: six trials' scores, matrices, supports, and confidence thirds recomputed.")
     print("PASS: before/after data, seeds, test posts, and settings match; only epochs changed.")
     print("PASS: baseline and original trained model use the same 36 posts.")
     print("Dataset:", dict(Counter(r["label"] for r in rows)))
-    print(f"PENDING: {sum(not r['label'] for r in staff)}/30 independent staff labels blank; "
-          f"staff answer key present: {(ROOT / 'data/staff_labels.csv').exists()}.")
+    print(f"PASS: AI-to-staff agreement recomputed: {agreement['agreed']}/30; all disagreements adjudicated.")
+    print("LIMITATION: AI-assisted labels do not establish the unaided-student criterion.")
 
 
 if __name__ == "__main__":
