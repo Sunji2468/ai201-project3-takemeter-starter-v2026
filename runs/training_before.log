@@ -1,0 +1,86 @@
+device: mps  (Apple Silicon GPU (MPS))
+torch:  2.15.0
+
+⚠️  WRITE THIS DOWN. Your results depend on it.
+
+Two people running this notebook on the same data with the same seed can
+get different numbers, because different hardware does the arithmetic in
+a slightly different order. That is not a bug and it is not one of you
+being wrong — it is a real property of the thing you are building, and
+unit 6 asks you to report it alongside your three seeds.
+2 labels: firsthand_report, general_response
+seed 42, 3 epochs, lr 2e-05, batch 16
+Dataset warnings: ["'firsthand_report' is 63% of your data. Getting lopsided."]
+Starting before seed 42, max_length 128
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.6509, 'grad_norm': 1.3231176137924194, 'learning_rate': 1.4545454545454546e-05, 'epoch': 0.9090909090909091}
+{'eval_loss': 0.5854105353355408, 'eval_accuracy': 0.6285714285714286, 'eval_f1_macro': 0.38596491228070173, 'eval_runtime': 0.2249, 'eval_samples_per_second': 155.634, 'eval_steps_per_second': 13.34, 'epoch': 1.0}
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.5953, 'grad_norm': 2.3044300079345703, 'learning_rate': 8.484848484848486e-06, 'epoch': 1.8181818181818183}
+{'eval_loss': 0.5441977381706238, 'eval_accuracy': 0.6285714285714286, 'eval_f1_macro': 0.38596491228070173, 'eval_runtime': 0.1313, 'eval_samples_per_second': 266.468, 'eval_steps_per_second': 22.84, 'epoch': 2.0}
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.5627, 'grad_norm': 2.0553245544433594, 'learning_rate': 2.4242424242424244e-06, 'epoch': 2.7272727272727275}
+{'eval_loss': 0.5276673436164856, 'eval_accuracy': 0.6571428571428571, 'eval_f1_macro': 0.4642857142857143, 'eval_runtime': 0.1315, 'eval_samples_per_second': 266.115, 'eval_steps_per_second': 22.81, 'epoch': 3.0}
+{'train_runtime': 9.051, 'train_samples_per_second': 54.027, 'train_steps_per_second': 3.646, 'train_loss': 0.5929297172661984, 'epoch': 3.0}
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{"seed": 42, "n_test": 36, "accuracy": 0.6666666666666666, "f1_macro": 0.46798029556650245, "per_label": {"firsthand_report": {"precision": 0.6571428571428571, "recall": 1.0, "f1": 0.7931034482758621, "support": 23}, "general_response": {"precision": 1.0, "recall": 0.07692307692307693, "f1": 0.14285714285714285, "support": 13}}, "confusion": {"firsthand_report": {"firsthand_report": 23, "general_response": 0}, "general_response": {"firsthand_report": 12, "general_response": 1}}, "confidence": {"mean_when_right": 0.7378334999084473, "mean_when_wrong": 0.5979373455047607, "accuracy_most_confident_third": 0.9166666666666666, "accuracy_least_confident_third": 0.16666666666666666, "n_per_third": 12}, "device": "mps", "device_name": "Apple Silicon GPU (MPS)", "torch_version": "2.15.0", "transformers_version": "4.57.6", "max_length": 128, "epochs": 3, "learning_rate": 2e-05, "batch_size": 16, "base_model": "distilbert-base-uncased", "phase": "before", "started_at_utc": "2026-11-16T16:44:33.217651+00:00", "finished_at_utc": "2026-11-16T16:44:50.131743+00:00", "dataset_sha256": "746cda7a153a06095cc2f9f406f2b81de910b2bc8b6de923b8c072b9853c72dd", "train_seconds": 16.553292541997507, "evaluation_seconds": 0.2179990829899907, "n_train": 163, "n_validation": 35, "majority_baseline_accuracy": 0.6388888888888888}
+Starting before seed 7, max_length 128
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.6661, 'grad_norm': 1.8224881887435913, 'learning_rate': 1.4545454545454546e-05, 'epoch': 0.9090909090909091}
+{'eval_loss': 0.6124677062034607, 'eval_accuracy': 0.6285714285714286, 'eval_f1_macro': 0.38596491228070173, 'eval_runtime': 0.1337, 'eval_samples_per_second': 261.831, 'eval_steps_per_second': 22.443, 'epoch': 1.0}
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.5771, 'grad_norm': 1.2813152074813843, 'learning_rate': 8.484848484848486e-06, 'epoch': 1.8181818181818183}
+{'eval_loss': 0.5603806376457214, 'eval_accuracy': 0.6285714285714286, 'eval_f1_macro': 0.38596491228070173, 'eval_runtime': 0.131, 'eval_samples_per_second': 267.169, 'eval_steps_per_second': 22.9, 'epoch': 2.0}
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.5172, 'grad_norm': 1.722401738166809, 'learning_rate': 2.4242424242424244e-06, 'epoch': 2.7272727272727275}
+{'eval_loss': 0.5368160605430603, 'eval_accuracy': 0.6571428571428571, 'eval_f1_macro': 0.4642857142857143, 'eval_runtime': 0.1318, 'eval_samples_per_second': 265.62, 'eval_steps_per_second': 22.767, 'epoch': 3.0}
+{'train_runtime': 5.8507, 'train_samples_per_second': 83.58, 'train_steps_per_second': 5.64, 'train_loss': 0.5743851986798373, 'epoch': 3.0}
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{"seed": 7, "n_test": 36, "accuracy": 0.75, "f1_macro": 0.653475935828877, "per_label": {"firsthand_report": {"precision": 0.71875, "recall": 1.0, "f1": 0.8363636363636363, "support": 23}, "general_response": {"precision": 1.0, "recall": 0.3076923076923077, "f1": 0.47058823529411764, "support": 13}}, "confusion": {"firsthand_report": {"firsthand_report": 23, "general_response": 0}, "general_response": {"firsthand_report": 9, "general_response": 4}}, "confidence": {"mean_when_right": 0.6661057472229004, "mean_when_wrong": 0.5732308030128479, "accuracy_most_confident_third": 1.0, "accuracy_least_confident_third": 0.5, "n_per_third": 12}, "device": "mps", "device_name": "Apple Silicon GPU (MPS)", "torch_version": "2.15.0", "transformers_version": "4.57.6", "max_length": 128, "epochs": 3, "learning_rate": 2e-05, "batch_size": 16, "base_model": "distilbert-base-uncased", "phase": "before", "started_at_utc": "2026-11-16T16:44:50.277172+00:00", "finished_at_utc": "2026-11-16T16:44:56.861971+00:00", "dataset_sha256": "746cda7a153a06095cc2f9f406f2b81de910b2bc8b6de923b8c072b9853c72dd", "train_seconds": 6.324698124954011, "evaluation_seconds": 0.12934070901246741, "n_train": 163, "n_validation": 35, "majority_baseline_accuracy": 0.6388888888888888}
+Starting before seed 2024, max_length 128
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.664, 'grad_norm': 1.2934199571609497, 'learning_rate': 1.4545454545454546e-05, 'epoch': 0.9090909090909091}
+{'eval_loss': 0.59026700258255, 'eval_accuracy': 0.6571428571428571, 'eval_f1_macro': 0.4642857142857143, 'eval_runtime': 0.149, 'eval_samples_per_second': 234.928, 'eval_steps_per_second': 20.137, 'epoch': 1.0}
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.5886, 'grad_norm': 1.7393125295639038, 'learning_rate': 8.484848484848486e-06, 'epoch': 1.8181818181818183}
+{'eval_loss': 0.5141013264656067, 'eval_accuracy': 0.7142857142857143, 'eval_f1_macro': 0.5949074074074074, 'eval_runtime': 0.1431, 'eval_samples_per_second': 244.586, 'eval_steps_per_second': 20.964, 'epoch': 2.0}
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 0.5188, 'grad_norm': 1.6848763227462769, 'learning_rate': 2.4242424242424244e-06, 'epoch': 2.7272727272727275}
+{'eval_loss': 0.48213839530944824, 'eval_accuracy': 0.8285714285714286, 'eval_f1_macro': 0.79, 'eval_runtime': 0.1466, 'eval_samples_per_second': 238.761, 'eval_steps_per_second': 20.465, 'epoch': 3.0}
+{'train_runtime': 6.1019, 'train_samples_per_second': 80.14, 'train_steps_per_second': 5.408, 'train_loss': 0.5867381854490801, 'epoch': 3.0}
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+/Users/saisrujanasrivangapandu/Desktop/unit6/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{"seed": 2024, "n_test": 36, "accuracy": 0.7222222222222222, "f1_macro": 0.5982142857142857, "per_label": {"firsthand_report": {"precision": 0.696969696969697, "recall": 1.0, "f1": 0.8214285714285714, "support": 23}, "general_response": {"precision": 1.0, "recall": 0.23076923076923078, "f1": 0.375, "support": 13}}, "confusion": {"firsthand_report": {"firsthand_report": 23, "general_response": 0}, "general_response": {"firsthand_report": 10, "general_response": 3}}, "confidence": {"mean_when_right": 0.7107065916061401, "mean_when_wrong": 0.5807780027389526, "accuracy_most_confident_third": 1.0, "accuracy_least_confident_third": 0.3333333333333333, "n_per_third": 12}, "device": "mps", "device_name": "Apple Silicon GPU (MPS)", "torch_version": "2.15.0", "transformers_version": "4.57.6", "max_length": 128, "epochs": 3, "learning_rate": 2e-05, "batch_size": 16, "base_model": "distilbert-base-uncased", "phase": "before", "started_at_utc": "2026-11-16T16:44:56.959478+00:00", "finished_at_utc": "2026-11-16T16:45:03.811072+00:00", "dataset_sha256": "746cda7a153a06095cc2f9f406f2b81de910b2bc8b6de923b8c072b9853c72dd", "train_seconds": 6.57278916699579, "evaluation_seconds": 0.1434772500069812, "n_train": 163, "n_validation": 35, "majority_baseline_accuracy": 0.6388888888888888}
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.667 | 0.750 | 0.722 | 0.083 |
+| Macro F1 | 0.468 | 0.653 | 0.598 | 0.185 |
+| F1 — `firsthand_report` | 0.793 | 0.836 | 0.821 | 0.043 |
+| F1 — `general_response` | 0.143 | 0.471 | 0.375 | 0.328 |
+| true \ predicted | firsthand_report | general_response |
+|---|---|---|
+| **firsthand_report** | 23 | 0 |
+| **general_response** | 12 | 1 |

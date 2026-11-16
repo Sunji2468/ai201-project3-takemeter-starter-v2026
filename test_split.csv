@@ -1,0 +1,171 @@
+text,label,note,id,source_url,thread_id
+"Personally, I've never seen anyone write C++ codebases without boost. As you pointed out, the only practical way seems to be to constraint its feature complexity through meta programming.
+
+Coming from the embedded C++ world where resources are scarce, C++ and its debugger ecosystem have been really nice. There were usually strong vendor provided SDKs and cross compilation toolchains available.
+
+The issues I had with the language were mostly dependencies on vendors, not effectively being able to fix problems in SDKs, and as you also mentioned the footguns.
+
+Lots of frustrations came from codestyle, branch conventions and type conventions we tried to encode into templates, which new team members had to learn before they could write any production code. So from a team perspective a lot of productivity came from reproducible build pipelines and setups. Having one team member on Windows and the other on macOS or Linux was as painful as it can get, especially with getting gcc's ecosystem to work properly. So you were also really dependent on Docker cross architecture images. And setting those up just for the sake of compilation was also unnecessary overhead.
+
+These days I've migrated towards Go for pretty much all tasks I can think of, mostly for the tight integration with the C ABI ecosystem and tinygo and the easy possibility to cross compile into fat binaries.
+
+What I miss though is a ""real IDE"" like the old Visual Studio, or geany or whatever. Most IDEs are not symbol based anymore, which makes them really painful to use in terms of what I expect an IDE to offer to be able to call itself an IDE. But maybe this is just my C++ heart bleeding all over the place because I miss good and typed API documentation examples that I can explore through clicking rather than having to google every function all the time.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports embedded development and team build-system difficulties.,50435423,https://news.ycombinator.com/item?id=50435423,50423371
+"A proportional width font terminal. ""i"" and ""w"" shouldn't take up the same amount of horizontal space. We used to have to do that because computers were slow and we counted cycles and every bits mattered. We live in a land of plenty now though so we can spend cycles doing math so that ls -l/top/etc table output is still aligned but ""i"" and ""w"" can take up the appropriate amount of horizontal space.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Describes a terminal concept without saying the writer built or uses it; thread title is excluded.,50389705,https://news.ycombinator.com/item?id=50389705,50417407
+"I believe strongly in the mission of decentralizing the web, so I have relentlessly annoyed everyone into using matrix and/or Signal (not perfect but better). You have to set expectations that you won't convert everyone and that FOSS has warts. For that reason I bridge everything and always meet people where they are and constantly show off to them that even if they sms/telegram/WhatsApp/messenger/slack/discord/signal me then I get it in one app with no tracking or ads on my physical phone that I carry in my pocket. Many people in my social circle hate telegram but have to use it, so bridging that was a big selling point for example.
+
+I also periodically take advantage of news stories that trend like when discord was going to ID people, I made a point to bring that up to convert more people, and always get a couple new takers.
+
+When something fails to work like group messages fracturing or big files not sharing well with iPhone users, I make clear the practical value of having our own control and resources as a social network.
+
+I also try to make sure my server has useful bots, a small thing but every bit of utility and differentiation with proprietary services helps.
+
+I share guides on how to get back in, one thing people get confused about is that they don't have to give PII but they do need to remember the home server URL and save their key and password. So making sure to have ready pointers and blurbs on how to login that you can share quickly is necessary because people inevitably get logged out, especially iPhone users get confused easily (for app store culture reasons I think) and need kind but eager assistance.
+
+I try to make sure we have well moderated safe space e2ee rooms to talk about hard issues, and people do realize over time that certain things are more awkward to say digitally if you know it could be being surveilled or tracked, even the metadata.
+
+I've also encouraged technical friends to run their own servers and federate, got a couple to actually do it which is a cool feeling.
+
+It takes time (years), patience, and effort, but many little pushes will build a community.",firsthand_report,"AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports bridging services, helping users, and running a server.",50408606,https://news.ycombinator.com/item?id=50408606,50405250
+"First of all, it's extremely expensive. It's cheaper to use biological robots (us). And automation simply isn't feasible in every field.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; General claim about automation economics.,50466634,https://news.ycombinator.com/item?id=50466634,50466520
+"Curious if you've tried Snikket, and what hurdles you ran into (if you did). I made it with the primary purpose of moving my family communication over to XMPP, and I succeeded with that (improving a bunch of stuff in the process). I'm not claiming it's perfect (a known weak point is the iOS app, but we're actively working on solving that...)",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports making Snikket and moving family communication.,50405349,https://news.ycombinator.com/item?id=50405349,50405250
+"Do not use smartphones if you want at least sometimes not to be faced with slop. What about original question, I hope one day the humanship will gone and all resources of AI will going to be utilized for working on science and math fields. That will be the true end of slop.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Offers advice and hopes for AI's future.,50480848,https://news.ycombinator.com/item?id=50480848,50479788
+"It sounds like you are presenting us with ""100% AI"" or ""100% human"".
+
+You could prompt 'is this dialogue bit realistic for an [man v. woman]+[profession]+background.  Or you can dream up other targeted prompts that could improve your writing, plot, realism, geographic details, character-arc, historical details, etc.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Suggests prompts and editing approaches without reporting using them.,50482371,https://news.ycombinator.com/item?id=50482371,50481227
+"First think about the practical, legal and PR challenges of putting self-driving vehicles on public roads.
+
+Putting autonomous robots in amongst humans is that problem, on steroids.
+
+Edit: there’s a reason why industrial robots all have a hazard zone marked around them, and some even have transparent safety screens or cages",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Explains safety and legal challenges.,50466574,https://news.ycombinator.com/item?id=50466574,50466520
+"I still don't understand the ""feature creep"" complaint
+
+python just introduced built-in sentinel, and only comment on an explainer video brought up that it's nothing new and is just a rename of unittest.mock.sentinel
+
+who even knew there's unittest module? who even knew there's unittest.mock? definitely not me
+
+because it doesn't matter - you use what you need and learn what you encounter. Same thing with C++",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Discusses language complexity; not knowing a module is not a concrete use account.,50424256,https://news.ycombinator.com/item?id=50424256,50423371
+"The criticism is absolutely right on the money. However, you can choose to ignore the more complicated parts and use only the ones you know (well). That's what I'm mostly doing.
+
+I've felt for at least the last two decades that C++ is trying to solve everyone's problems, no matter how obscure.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Explicitly describes the writer's current practice of using a limited feature set.,50432428,https://news.ycombinator.com/item?id=50432428,50423371
+"Teaching myself how to build a Spiking Graph Neural Network in Zig, to run on my Brainchip Akida AKD1500 neuromorphic accelerators (and Efinix Titanium Ti60 FPGAs).
+
+Good times, but lots of foundational math I hadn't previously been exposed to.
+
+Some reading material if anyone else is interested in that:
+
+Spiking Graph Convolutional Networks (2022): https://doi.org/10.24963/ijcai.2022/338 (https://doi.org/10.24963/ijcai.2022/338)
+
+A Tutorial on Spectral Clustering (2007): https://doi.org/10.1007/s11222-007-9033-z (https://doi.org/10.1007/s11222-007-9033-z)
+
+Semi-Supervised Clustering with Graph Convolutional Networks (2017): https://arxiv.org/abs/1609.02907 (https://arxiv.org/abs/1609.02907)
+
+Spectral and Algebraic Graph Theory (2025, draft book): http://cs-www.cs.yale.edu/homes/spielman/sagt/sagt.pdf (http://cs-www.cs.yale.edu/homes/spielman/sagt/sagt.pdf)",firsthand_report,Proposed label confirmed correct by user in chat on 2026-11-13; not cold; Describes personally learning and building a neural network with specific hardware.,50418525,https://news.ycombinator.com/item?id=50418525,50417407
+"when I didn't know better (i.e., didn't know many other languages), back in 96 to maybe 2002 or so, I tremendously enjoyed C++. I felt so powerful. It was hard to get things right and fast following the literature at the time, but hey, low-level, power, yay!
+
+Then I took a turn and learnt LISP, ML, and a whole potpourri of functional languages. Things were so easy to express in comparison to looking at _all_ the details _all_ the time. I dropped my C++ for quite a while.
+
+Fast forward a decade, and I spent about a decade writing C++11 code. Then C++17. I didn't particularly enjoy it, but it got the job done. In the environment at the time, alternatives were not accepted, so I obliged.
+
+Now I just see loaded and unsecured footguns everywhere when I look at C++. Note that I'm still paid to write C++, but after learning to trust smart compilers in semantically proper languages, learned about data oriented programming, learned about all the bad from the pointer-laden object-oriented style, about the problems of (thread) synchronization C++ style vs. message passing between programs (CSP), ... I grew to despise it.
+
+Frankly, nowadays, I'd rather write in Ada, drop all the ""smart"" constructs whose smell reek through the whole code-base, and all the implied semantics of various interfaces which are not described on language-level but (maybe, hopefully) in the comments ... the everything-and-the-kitchen-sink approach of C++ bites us regularly, but still, the environment has a hard time accepting non-C++ code.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports decades of language learning and paid C++ work.,50424603,https://news.ycombinator.com/item?id=50424603,50423371
+"I love C++, in the C++11 days I even organized a local C++ User Group at my university, and I've used it for the last 20 years as my main language.
+
+I still appreciate its many merits but since a bit more than a year I migrated to Rust and I find it very difficult to look back, except for maintaining my previous C++ projects.
+
+Surprisingly, it's not Rust's memory safety features that I miss the most when turning back to C++. It's mostly the absence of algebraic data types and pattern matching, and the split between compile-time and runtime polymorphism, i.e. concepts vs virtual classes, where in Rust you just have traits and use them for everything. On top of that the tooling and the ecosystem are just amazing.
+
+There's a proposal for pattern matching sitting there under the committee's desk for some years now. With the mess that the standard committee is going through I really doubt they will be able to ship pattern matching for C++29 or even later. Too little too late.
+
+So to answer the question, yes, I still appreciate the merits of C++ but I don't enjoy writing it as much as I have in the past.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports organizing a user group and migrating to Rust.,50424131,https://news.ycombinator.com/item?id=50424131,50423371
+"I worked at a sports company forever ago, and ever since then, I've wanted to build my own NBA scores + stats site. After a few false starts over the years, I have a new concept called Center Court that I'm so excited about.
+
+It's primary purpose is for live boxscores because all of the major sports sites have terrible UI/UX experiences. I always defaulted to ESPN.com but it's so slow and awful. Center Court is basically a bridge between espn.com (or nba.com) and more advanced stat focused sites that don't offer a good live experience.
+
+The technical implementation behind it is quite novel in this space too. Instead of storing computed statistics in a database, I store raw play by play payloads immutability and everything else is derived from those and can be trivially rebuilt so the event log is a derived cache of the payloads. Every stat on every page is a pure fold over the event log at request time; no derived number is stored.
+
+This enables some powerful features like being able to re-derive a game's entire state at any point of the game (or even a time range). Example game to try out: https://centercourtlive.com/game/0022600197 (https://centercourtlive.com/game/0022600197)
+
+The site is meant to be extremely fast. It's all server-side rendered with progressive JS enhancements. URLs are immutable and cached behind a CDN.
+
+https://centercourtlive.com/ (https://centercourtlive.com/)",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports sports-company employment and development of a scores site.,50424262,https://news.ycombinator.com/item?id=50424262,50417407
+"If you can't tell, does it matter?
+
+https://youtu.be/kaahx4hMxmw?si=xpDPAdAN6MCzh26g (https://youtu.be/kaahx4hMxmw?si=xpDPAdAN6MCzh26g)
+
+Edit: I wonder if you've read the book - Do Androids Dream of Electric Sheep? By Philip K. Dick.
+
+It's a dystopian sci-fi novel that was published in the 1960s centered on advanced androids that are so sophisticated they are nearly indistinguishable from humans in appearance and behavior.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Asks a question and summarizes a novel without saying the writer read it.,50479040,https://news.ycombinator.com/item?id=50479040,50473788
+"There are two ways I see to do this:
+
+1. Tell your agent to eval the skill itself (https://code.claude.com/docs/en/plugin-evals (https://code.claude.com/docs/en/plugin-evals)). This is easier and faster, but less accurate, and harder to extend to capture things like code quality.
+
+2. Build your own benchmark out of work your normally do, and then eval the skill on that dataset. This is harder and more annoying (because creating benchmarks is hard) but provides deeper insight into how the skill affects the agent in known scenarios.
+
+It also depends on what the skill is doing. If it's creating an artifact (like a report, easier to eval) then your strategy is very different than if the skill is changing agent behavior (like telling it to use cheap subagents under XYZ conditions, harder to eval).
+
+The importance of doing this grows with the number of people using the skill. Working on my own projects, I don't usually bother. Working in an enterprise monorepo, suddenly the risk of shipping a bad skill is amplified, and evals become much more attractive.
+
+Also note that skill behavior changes across different models. A skill built for Opus 4.8 may not be necessary on Opus 5.5. A skill built for Opus 5.5 might cause Haiku 5.5 to behave erratically.
+
+TLDR: tell your agent to do it, and think about building your own.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports usually skipping skill evaluations on the writer's own projects.,50427183,https://news.ycombinator.com/item?id=50427183,50426070
+"My day job is writing in C, so I love C++ on the rare occasion I get to use it.
+
+Classes and smart pointers make some things so much easier that would take an age in C",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports a day job writing C and occasional C++ use.,50437907,https://news.ycombinator.com/item?id=50437907,50423371
+"I’ve been working since the start of the year on a minimalist web reader (https://papercove.app (https://papercove.app)) that I use every day to follow RSS feeds, newsletters and read-later, and that helps keep things from piling up.
+
+I thought I’d get where I wanted much faster, but it turns out I ran into quite a few challenges: it’s quick to build something simple, but it takes much longer to get a reader that’s robust and pleasant to use (extraction, parsing, security, infrastructure, etc.).
+
+On the tech side, I’m using my usual stack, Laravel and Livewire, with some Python for extraction and Go for the email infrastructure. This month I’m working on the beta release, since several people around me were already using it, so I’d like to gather more feedback.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports building and daily use of a reader since the start of the year.,50391077,https://news.ycombinator.com/item?id=50391077,50417407
+Expensive,general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; One-word cost assessment.,50471082,https://news.ycombinator.com/item?id=50471082,50466520
+"Is that what ""Tears in Rain"" refers to?
+
+Been a long time since I've seen Blade Runner, but I thought the monologue just serves to show that the android is reflecting on what death means, in his case the irrevocable loss of his consciousness, memories, thoughts.",firsthand_report,"AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Explicitly reports having seen Blade Runner, despite asking an interpretation question.",50459156,https://news.ycombinator.com/item?id=50459156,50458894
+">Ask HN: How did you convince family and friends to join your XMPP/Matrix server?
+
+I didn't, that's not something you ask 'normal' people to do.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Denies doing the action and offers a general norm; no concrete positive account.,50410555,https://news.ycombinator.com/item?id=50410555,50405250
+"I've recently been making improvements to Larm, https://larm.dev (https://larm.dev), an uptime monitoring service I've been running for a while now. It's got global probe coverage, automatic/standalone status pages, and lots of alert channels. Pricing is simple and the limits are generous.
+
+It's accumulated a decent number of users now which is exciting.
+
+Under the hood it's an Elixir backend with a network of little go probes running all over the world, all connected by TCP tunnels. All the check result data is stored in Clickhouse. Status pages are generated on demand and served through a CDN.
+
+The whole thing is EU hosted.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports maintaining and improving an uptime service.,50421853,https://news.ycombinator.com/item?id=50421853,50417407
+"I recently read a vacancy for a C/C++ engineer where they explicitly mentioned they don't use AI. I can't find it anymore and it was a small specific Dutch company, but at least that still happens. I can imagine in places where cybersecurity is important they may also not use it (except that those actually developing cybersecurity NEED to use it to keep up...).",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports recently reading a particular job vacancy.,50455406,https://news.ycombinator.com/item?id=50455406,50452986
+Funny timing. It's been about a decade since I did anything with C++. Looks like I might be picking it back up for an ESP32 project.,firsthand_report,"AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports past C++ use roughly a decade ago, alongside a future plan.",50453427,https://news.ycombinator.com/item?id=50453427,50423371
+"To help my kids preparing for an exam (and steer them away from asking Gemini for solutions), I’ve built an iPad Kids Tutor app. 
+They can take a pic of a problem that they struggle with (initially for math but it works for any subject) and the harness then prepares a plan how to work through the issue using both claude and codex on the backend. 
+It’s been fun to build and watch my kids start using it and actually enjoy it (ok, not always).",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports building a tutor and observing the writer's children use it.,50424853,https://news.ycombinator.com/item?id=50424853,50417407
+"I had a love-hate relationship with C++.
+
+In the decade prior to the release of the first version of C++ my company bought me a Lisp Machine, and programming was so much fun.
+
+C++ was gnarly, and I put a lot of effort into making C++ easier for our new hires out of college to use (I wrote a C++ GUI library for them to use that evolved into my personal code for my two “Portable C++ GUI” books for McGraw-Hill). I ended up writing 5 C++ books, and using the language was fantastic for my career, but:
+
+I never really liked C++",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports writing a GUI library and five C++ books.,50424196,https://news.ycombinator.com/item?id=50424196,50423371
+"As a heavy LLM user in my daily work, I've been working on optimizing agent memory on complex projects. That resulted in  this simple Rust-based tool called Wayfinder: https://github.com/zaterka/wayfinder (https://github.com/zaterka/wayfinder)
+
+I've been trying to improve agent knowledge over a codebase, and existing approaches weren't giving the result I wanted, and I wanted to keep it simple. In the end, I added a semantic layer on top of an LLM Wiki and it saved 30% of token usage in multiple benchmarks I ran. It also adds some nice features to deal with concurring agents updating the shared memory, to ensure all information there is reliable and fresh.
+
+It's published to PyPi, so an ""uv tool install wayfinder-memory"" already does all the work, and it's compatible with almost all Harnesses.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports building and benchmarking an agent-memory tool.,50417938,https://news.ycombinator.com/item?id=50417938,50417407
+"It's not XMPP, but I face the same issue with an app for organizing outings among friends. I've stopped asking people, friends and family alike, to install something before they have a reason to. Otherwise they install it and never use it. Instead the app generates an event link that opens in a browser and shows the place, the time and how many are going. Those who want to confirm or create an event of their own install the app. The others can still turn up. Perhaps the same logic could apply to a server: an invitation that works before any installation is required, with the app as the next step.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports changing the writer's app-adoption approach after experience with friends.,50412862,https://news.ycombinator.com/item?id=50412862,50405250
+"… why? Are you pushing this on people for their good, or for yours?",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Questions the motivation for persuading others.,50406722,https://news.ycombinator.com/item?id=50406722,50405250
+"https://singonkey.app (https://singonkey.app)
+
+A singing training app for bad singers. You sing the pitch line and get a score. Let's you sing to any original song by listening along and not playing the song itself.
+
+Recently got some good feedback on HN https://news.ycombinator.com/item?id=50195488 (https://news.ycombinator.com/item?id=50195488) and am following up with Linux and Windows versions and using Fable 5.1 to internationalise the app and landing page which explains the app.",firsthand_report,Proposed label confirmed correct by user in chat on 2026-11-13; not cold; Reports receiving feedback and actively working on platform versions and internationalization.,50418225,https://news.ycombinator.com/item?id=50418225,50417407
+"It was easy getting the family I talked to on Matrix to switch to XMPP, all I had to say was ""imagine Element, but it actually works"".",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports switching family from Matrix to XMPP and the pitch used.,50405952,https://news.ycombinator.com/item?id=50405952,50405250
+"Same. An hour ago, had 10 minutes of auth failures before it resolved. Just happened again with all my claude cli agents halting for auth.
+
+https://status.claude.com/history (https://status.claude.com/history)",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports two recent authentication outages affecting the writer's agents.,50481224,https://news.ycombinator.com/item?id=50481224,50481201
+posttrained models for a specific purpose usually outperforms model that are not posttrained for that purpose,general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; General claim about specialized models.,50470963,https://news.ycombinator.com/item?id=50470963,50470591
+"Is taking advantage of Ai, related to financial gains?  It is not the lack of imagination that stops people.  They have to produce a product that is superior and market it and that requires capital and long term persistence.  To top that off, more financially  secure parties acquire patents and capital and monetize it. Zillions of people are looking for a way to capitalize on Ai and only a few get lucky.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Explains barriers to commercialization.,50454804,https://news.ycombinator.com/item?id=50454804,50453369
+"If you look at the code generated by the latest and greatest models, you will still find it sloppy. So I won't say in general that models are already smarter than humans.
+Plus the context windows are still so small, it's like the early days of computers where 256kb of memory was a lot. These little context windows don't let the models tackle very high level of abstraction of work. You still need to babysit them.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; General assessment of generated code and context limits.,50458709,https://news.ycombinator.com/item?id=50458709,50453369
+"I found some success in using Jev/decision models by replacing some of my existing workflows which were using LLMs for classification tasks.
+
+Replacing vector store: https://subworkflow.ai/blog/ragextract/rag-vs-jag (https://subworkflow.ai/blog/ragextract/rag-vs-jag)
+Starter examples: https://community.n8n.io/t/n8n-jev-4-awesome-examples-to-get... (https://community.n8n.io/t/n8n-jev-4-awesome-examples-to-get-started/314596)
+
+For me, it's less about cost and more about accuracy, scale and speed.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports replacing personal classification workflows.,50481013,https://news.ycombinator.com/item?id=50481013,50470591

@@ -1,7 +1,7 @@
 """Execute the notebook's training functions with durable, auditable trial output.
 
 Usage: .venv/bin/python run_experiments.py --phase before
-       .venv/bin/python run_experiments.py --phase after --max-length 256
+       .venv/bin/python run_experiments.py --phase after --epochs 6
 Functions are loaded from the notebook, rather than maintaining a second model.
 """
 import argparse
@@ -44,6 +44,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--phase", required=True, choices=["before", "after"])
     parser.add_argument("--max-length", type=int, default=128)
+    parser.add_argument("--epochs", type=int, default=3)
     args = parser.parse_args()
     output = ROOT / f"results_three_seeds_{args.phase}.json"
     if output.exists():
@@ -56,6 +57,7 @@ def main():
     disable_progress_bars()
     ns = notebook_namespace()
     ns["MAX_LENGTH"] = args.max_length
+    ns["EPOCHS"] = args.epochs
     df = pd.read_csv(ROOT / "labels.csv", keep_default_na=False)
     problems, warnings = ns["check_dataset"](df, ns["LABELS"])
     if df["label"].eq("").any() or df["text"].duplicated().any():

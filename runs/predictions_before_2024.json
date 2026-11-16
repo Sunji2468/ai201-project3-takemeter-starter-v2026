@@ -1,0 +1,290 @@
+[
+  {
+    "id": "50390534",
+    "text": "I'm building an open-source \"spatial workspace for directing AI coding agents like an engineering director\".\n\nI got overwhelmed by walls of text of parallel Claude Code sessions. This limited the sessions I could steer in parallel to maybe 5 or 6. I knew there had to be a better way, and I found one: A canvas per project. Work laid out as cards. An agent in a worktree per card. Chat condensed to WhatsApp-style back and forth, not a litany of tool calls. Result is usually a narrated demo video that I can comment on by voice to have the agent go another round. Remote-control from my phone. Remote workers to scale beyond my machine. Everyone I know who tried it has stuck with it so far.\n\nhttps://github.com/sadilek/obeya (https://github.com/sadilek/obeya)",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7796670198440552,
+    "token_count": 192
+  },
+  {
+    "id": "50482151",
+    "text": "Trying to send emails via Microsoft Outlook",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5394109487533569,
+    "token_count": 9
+  },
+  {
+    "id": "50423819",
+    "text": "I really enjoyed writing C++. At least the C++ with for loops, calling functions and the sort. Not so much the c++ of template specifications. I recently saw [1] and the point of C++ building new things with the template mechanics really resonated with me. Features built that way stopped me from using the part of C++ I really liked.\n\nHowever, I stopped writing C++ once I switched to Rust. I assume I would still enjoy writing C++, as long as I can avoid a lot of the templating features. (I might have a different opinion if I worked on different kinds of C++ projects, eg more people, more library oriented, etc.)\n\n[1] https://www.youtube.com/watch?v=DZTkT1Cq_aY (https://www.youtube.com/watch?v=DZTkT1Cq_aY)",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7959389686584473,
+    "token_count": 206
+  },
+  {
+    "id": "50420213",
+    "text": "A new editor and processing engine for the Foveon Sensor cameras that were manufactured around 2002-2019.  The existing software is either wildly slow, or does not process according to manufacturer intention.  Think choosing between waiting multiple seconds after every single UI interaction to display changes, or color casts not being handled and the images looking green/magenta in different areas of the shot. One tricky bit is that the 4 different sensor architectures are all processed differently.\n\nThis weekend I am modifying the pipelines to be able to operate on downsampled sensor layers so that I can get multi shot editing as snappy as possible.  If you are only displaying 500ish pixels wide, its wild to still be rendering the full 16mp image.  Perfetto has been very helpful while optimizing.\n\nLast weekend I was able to make what I feel like is a generational leap in reducing the noise from these sensors. \nhttps://www.dpreview.com/forums/threads/foveonic-process-you... (https://www.dpreview.com/forums/threads/foveonic-process-your-x3fs-in-one-second.4869451/post-71337683)\n\nUp next is redoing the caching/scheduling architecture to reduce the amount of overhead and to support multiplexing downsampled editing so that the images are processed within the same GPU pass instead of N passes * M images serially.\n\nhttps://github.com/hank-bond/foveonic (https://github.com/hank-bond/foveonic)",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7881988286972046,
+    "token_count": 344
+  },
+  {
+    "id": "50433150",
+    "text": "I write and review C++ all day every day.\n\nThe language has left a lot of people behind, and that's for the best. It's a different beast now",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.6476506590843201,
+    "token_count": 39
+  },
+  {
+    "id": "50453859",
+    "text": "If you think AI is smarter than humans at \"almost everything\"...well, it might just be you.\n\nOn a side note, I really feel bad for Gen Z. Society has forced them to push AI as far as possible. They probably are the most aware of its limitations. Yet they are also the least able to criticize it without career repercussions.\n\nI suspect this will change soon as more people come around to the fact that their chat bot is another tool just like Google search.\n\nI used to think how wrong it was to compare an LLM to a search engine but have realized over time that despite being wrong, it's still a better mental model because it gets a fundamental detail right; LLMs are tools, they aren't agents, they aren't autonomous, they don't understand things, at least not in the way a human would understand them.\n\nAnd this all ties back to the OP, that's the problem with calling them \"smarter\". Yes they can solve ancient math problems that humans failed at for many years and yet at the same time cannot be trusted to take a drive through order.\n\nWe need to stop seeing LLMs as a replacement for human cognition and instead appreciate what each form of \"intelligence\" brings to the table.",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.6950153112411499,
+    "token_count": 263
+  },
+  {
+    "id": "50470795",
+    "text": "Relic AI: https://app.relic-app.com (https://app.relic-app.com)\n\nThree of us in Sarajevo are building it.\n\nIt started because we kept saving things such as articles, Youtube lectures and podcasts, leaving open tabs as reminders for things to come back to later, but couldn't find those resources when we actually needed them, most of the time ending up redoing the research over again.\n\nWe have a browser extension for easy saving. It currently supports the page you're on, a PDF tab, all your open tabs, your bookmarks, and Youtube videos (including playlists). Each save gets a summary and tags. Then you can ask it questions, and it answers only from what you saved, with numbered sources. If nothing relevant is saved about what you are asking, it says so.\n\nIt's free during the beta and we are actively shipping new features based on user feedback.\n\nI\u2019d love to hear as much feedback as possible.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7901043891906738,
+    "token_count": 213
+  },
+  {
+    "id": "50481439",
+    "text": "Actually reading through a 35 pages planning doc. One word at a time.\n\nAnd ctrl+r status.claude.com like I'm Jesse Eisenberg at the end of The Social Network",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.6425081491470337,
+    "token_count": 42
+  },
+  {
+    "id": "50424002",
+    "text": "I never enjoyed programming in C++. I feel its (original) syntax and approach to OOP to be obnoxious. I never looked into C++11, though; I hope things improved. The first love was always for C; notwithstanding all its shortcomings, I feel at home writing C, and I would still enjoy doing so.",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7419112324714661,
+    "token_count": 75
+  },
+  {
+    "id": "50428237",
+    "text": "I\u2019ve been still working on my Spanish learning project. To summarize it in short, it uses LLMs to generate stories at your specific vocab level. As you read you tap words you don\u2019t know and they get added to a spaced repetition system (SRS). The SRS is then pulled from later when generating stories to help you review those words with context rather than just a flash card.\n\nI\u2019ve been working on the IOS native app for it recently and it\u2019s been fun to work with Swift again, but I forgot how demanding XCode can be.\n\nI would also love to get more users not just for the sake of having a product with a large number of users, but so I can setup load balancers and more interesting architecture. I\u2019ve dealt with that at work a lot but to build all of that from the ground up would be fun.\n\nWebsite is called https://readplusone.com (https://readplusone.com) if you\u2019re interesting in checking it out.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7992647290229797,
+    "token_count": 219
+  },
+  {
+    "id": "50453427",
+    "text": "Funny timing. It's been about a decade since I did anything with C++. Looks like I might be picking it back up for an ESP32 project.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.6550580859184265,
+    "token_count": 37
+  },
+  {
+    "id": "50424213",
+    "text": "I enjoy using C++ as \u201cC with classes.\u201d",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5423312187194824,
+    "token_count": 15
+  },
+  {
+    "id": "50468713",
+    "text": "Any machine tool worth a damned can rip your arm off and/or kill you. Never google degloving.\n\nThe same is true for robots. Safety where they have to share space with humans is distinctly non-trivial.\n\nThis matters far more than the compute or feedback systems required. We have robots that do laundry and wash dishes, they shut off when you open them, or sometimes actually lock while in use so you can't open them, for good reasons.",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5025903582572937,
+    "token_count": 97
+  },
+  {
+    "id": "50462216",
+    "text": "I was visiting Ward Christensen on the day he got his first Toshiba laptop. After he got it powered up he realized that he had zero software on the 3 1/2\" disks it used, making it almost useless.\n\nIt did have MS-DOS, thus it had debug. He used debug to write an impromptu assembly program to pull across data from one of his other machines via serial cable. He then used that code to pull across xmodem, which was then enough to pull across Qmodem. Then he pulled across laplink and he had rull access to everything.\n\nIt took less that 20 minutes total, I think.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7870862483978271,
+    "token_count": 138
+  },
+  {
+    "id": "50424086",
+    "text": "yep, i actually liked stl, iterators with auto also seem like a godsend now compared to how verbose they used to be. the biggest pain point for me was keeping track of all the required ctors and operator overloading. admittedly i used it back when all pointers were just *, once i discovered a single line of python could do what it took 10-100 lines of C++ to achieve i switched. so its been a looooong time since i programmed in C++, but i did like it overall.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7926796078681946,
+    "token_count": 116
+  },
+  {
+    "id": "50445250",
+    "text": "I love coding in c.",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5376003384590149,
+    "token_count": 8
+  },
+  {
+    "id": "50426119",
+    "text": "Everything after C++14 is useless bloat that actively makes the language worse and more convoluted.",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5091806650161743,
+    "token_count": 26
+  },
+  {
+    "id": "50471729",
+    "text": "I was there, at the dawn of the Third Age of Mankind... (some called it the dot-com bubble)\n\nI was a mere hobbit with my hobbit-computer pets, but I was holding the reins of something transcendent, untamed, and more colossal than I could imagine. My acquaintances discussing Free Software and stock trading and McMansion Purchases when their diploma ink was barely dry. Hiking through security doors and past Cray, Intel, DEC supercomputers and core routers -- quite the \"wiring closet\". The robots were safely imprisoned behind Plexiglas, and so were the console operators!\n\nI gained enough skill and exhibited talent so as to fall into Silicon Valley, and Glenda deigned to ferry me back and forth, north and south, a one-man tornado wreaking havoc on the Information Superhighway. In the currents off Moffatt Field, and the shadow of Apple Computer's buildings I tried to rewrite network stacks but succumbed to Impostor Syndrome and its complications.\n\nWhen California was done with me, Big Silicon and Oregon had use of my fingers + neural wetworks for awhile, and then I sprang at an opportunity to support astrobiology exploration and try to figure out an FC-AL SAN under a boss who didn't do Windows.\n\nI had a third comeback. I graduated college. I had a good job and employer over 4 years. But sprinkled in all the family tumult and mental illness torments left me doubtful of what/whom I've been chasing. It was self-discovery, God-discovery, though: I also came to terms with adoption and meeting the strangers of my birth family: the inner life of an adoptee is itself unfathomable to outsiders. Just ask Harry Potter, Luke Skywalker, or Paddington Bear.\n\nI'm scrounging for words now, but: https://en.wikipedia.org/wiki/The_Dreaming (https://en.wikipedia.org/wiki/The_Dreaming) comes to mind, analogous to \"Tears in the Rain\" or Life Is But a Dream or, in the words of the indefatigable programmable roadside sign in L.A. Story:\n\n  There are more things in Heaven and Earth, Horatio, than are dreamt of in your philosophy!\n\nRoadside sign, I hug U!",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.6574440002441406,
+    "token_count": 495
+  },
+  {
+    "id": "50424603",
+    "text": "when I didn't know better (i.e., didn't know many other languages), back in 96 to maybe 2002 or so, I tremendously enjoyed C++. I felt so powerful. It was hard to get things right and fast following the literature at the time, but hey, low-level, power, yay!\n\nThen I took a turn and learnt LISP, ML, and a whole potpourri of functional languages. Things were so easy to express in comparison to looking at _all_ the details _all_ the time. I dropped my C++ for quite a while.\n\nFast forward a decade, and I spent about a decade writing C++11 code. Then C++17. I didn't particularly enjoy it, but it got the job done. In the environment at the time, alternatives were not accepted, so I obliged.\n\nNow I just see loaded and unsecured footguns everywhere when I look at C++. Note that I'm still paid to write C++, but after learning to trust smart compilers in semantically proper languages, learned about data oriented programming, learned about all the bad from the pointer-laden object-oriented style, about the problems of (thread) synchronization C++ style vs. message passing between programs (CSP), ... I grew to despise it.\n\nFrankly, nowadays, I'd rather write in Ada, drop all the \"smart\" constructs whose smell reek through the whole code-base, and all the implied semantics of various interfaces which are not described on language-level but (maybe, hopefully) in the comments ... the everything-and-the-kitchen-sink approach of C++ bites us regularly, but still, the environment has a hard time accepting non-C++ code.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7813884019851685,
+    "token_count": 385
+  },
+  {
+    "id": "50481656",
+    "text": "Absolutely.",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.5476091504096985,
+    "token_count": 4
+  },
+  {
+    "id": "50466921",
+    "text": "Its economics, I'm not going to pay $100k for a robot to empty my dishwasher. I won't even pay $1k to purchase a robot vacuum.\n\nThere's no ROI for it at this point in time for consumers. Robots have been automating various things in factories for decades, its not new. Making the robots look like humans and act like humans doesn't really provide value does it?\n\nFor example how is a $100-200k robot cashier better than self-checkout or having a teenager get paid $12/hour?",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5708779692649841,
+    "token_count": 121
+  },
+  {
+    "id": "50427167",
+    "text": "A video player focussed on 360 videos.\n\nI got a 360 camera (GoPro MAX v1) for my bicycle, after re-discovering bicycling during COVID. I soon found it was fun to review the video after a ride, but the software was a bit clunky. Upgraded to a DJI Osmo 360, and found the software likewise powerful, but still not what I wanted.\n\nAs an audio video developer I knew I could make it work the way I wanted, and this year I finally set about doing that:  https://recap360.app (https://recap360.app)  (macOS-only at the moment).\n\nIt\u2019s a ~5MB download from the macOS app store; no in-app ads, no accounts, no ~GB download. It loads the video of a 5-hour bike ride in seconds, direct from MicroSD. Complete with a map overlay & graphs of various internal metadata.  (Speed, altitude, ascent rate, but also internal temperature etc).\n\nIt\u2019s been fascinating to see the various tradeoffs the camera vendors make; how much in-camera stabilization & rolling shutter compensation vs how much to leave to the player.  Also interest ing is how the metadata is recorded in the file; some document them, most don\u2019t.\n\nStarted with GoPro MAX, added DJI Osmo 360 & Insta360 support.  More coming soon.  Even plays dash cams & body cams (Vantrue & Boblov; I was curious to see how they stored GPS data).",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.8015153408050537,
+    "token_count": 330
+  },
+  {
+    "id": "50458709",
+    "text": "If you look at the code generated by the latest and greatest models, you will still find it sloppy. So I won't say in general that models are already smarter than humans.\nPlus the context windows are still so small, it's like the early days of computers where 256kb of memory was a lot. These little context windows don't let the models tackle very high level of abstraction of work. You still need to babysit them.",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5655364394187927,
+    "token_count": 94
+  },
+  {
+    "id": "50417905",
+    "text": "I built a new abstraction layer for code (https:// www.archme.io), as I believe it's no longer the right medium for understanding and collaboration in the era of AI and 10k LOC PRs.\n\nIt scans your codebase, turns it into permanent c4 & sequence diagrams and keeps them up to date on each commit. Then, instead of reviewing a 10k line coding PR, you review a 30 line change to sequence and C4 diagrams.\n\nnpm i -g @archme/cli && archme init to run it on your own computer, code never leaves your machine.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7469507455825806,
+    "token_count": 132
+  },
+  {
+    "id": "50470387",
+    "text": "Most environments are not robot friendly I think. I think in the future people will build robot friendly X (like home) to ease the software/hardware requirements. Actually governments might build those buildings for UBC programs.",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5782815217971802,
+    "token_count": 45
+  },
+  {
+    "id": "50470210",
+    "text": "I haven't been able to work in C++ for a few months now because of work and other projects, but I still love it, mostly because of how far down it lets you go. The last thing I used it for was reverse engineering Tarkov, only the PvE mode and not PvP because I'm not a dickhead, after a friend of mine was using a cheat there and I got curious whether I could build something similar myself.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7826240658760071,
+    "token_count": 96
+  },
+  {
+    "id": "50407587",
+    "text": "Matrix is bad, the protocol is complex, sync is bad, it uses a lot of resources... I had only bad experience with it.\n\nI have an XMPP server which works on a small server, it has been running for nearly 10 years with 0 issues. We are about 20 on it.\n\nI didn't convince them, I installed the client on their device and told them \"use this icon to talk to me\". Then they realized they could talk to each other. They don't care about anything else.\n\nWhat I'd like to see in an XMPP client:\n\nOn desktop:\n\n- something lighter, dino is not bad, but it can use quite a lot of CPU\n- better theming, some people like bubbles, other prefer irc like\n- GIF picker, it could require a server side proxy I don't care, I just want it\n- better control when sending image (crop, quality...)\n\nOn mobile:\n\n- better sharing (vcard, image with good control)\n- GIF picker\n- a few UI tweaks, like text colors and layout",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7840076088905334,
+    "token_count": 231
+  },
+  {
+    "id": "50427183",
+    "text": "There are two ways I see to do this:\n\n1. Tell your agent to eval the skill itself (https://code.claude.com/docs/en/plugin-evals (https://code.claude.com/docs/en/plugin-evals)). This is easier and faster, but less accurate, and harder to extend to capture things like code quality.\n\n2. Build your own benchmark out of work your normally do, and then eval the skill on that dataset. This is harder and more annoying (because creating benchmarks is hard) but provides deeper insight into how the skill affects the agent in known scenarios.\n\nIt also depends on what the skill is doing. If it's creating an artifact (like a report, easier to eval) then your strategy is very different than if the skill is changing agent behavior (like telling it to use cheap subagents under XYZ conditions, harder to eval).\n\nThe importance of doing this grows with the number of people using the skill. Working on my own projects, I don't usually bother. Working in an enterprise monorepo, suddenly the risk of shipping a bad skill is amplified, and evals become much more attractive.\n\nAlso note that skill behavior changes across different models. A skill built for Opus 4.8 may not be necessary on Opus 5.5. A skill built for Opus 5.5 might cause Haiku 5.5 to behave erratically.\n\nTLDR: tell your agent to do it, and think about building your own.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.6946676969528198,
+    "token_count": 327
+  },
+  {
+    "id": "50481633",
+    "text": "It's not down anymore though.",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.5029566287994385,
+    "token_count": 10
+  },
+  {
+    "id": "50405882",
+    "text": "Make sure that everyone in your family is a huge nerd. That\u2019s the only way.",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.5398131012916565,
+    "token_count": 22
+  },
+  {
+    "id": "50418936",
+    "text": "A series of actually hard puzzle books, so far sudoku, killer sudoku and some fiendish wordsearches that only use 5 letters per grid.\n\nhttps://extremepuzzlebooks.com (https://extremepuzzlebooks.com)\n\nA sample wordsearch is available as a pdf here:\nhttps://extremepuzzlebooks.com/assets/sample/extreme-wordsea... (https://extremepuzzlebooks.com/assets/sample/extreme-wordsearch-sample.pdf)\n\nI'm quite proud of this wordsearch concept as I've not seen it done before.\n\nAll the logic puzzles have an online solution to show step by step how you can complete them.\n\nhttps://extremepuzzlebooks.com/walkthroughs (https://extremepuzzlebooks.com/walkthroughs)\n\nI've been working on the software to generate, test and verify these for a couple of years and finally built up enough puzzle stock that meets the difficulty requirements to properly launch.\n\nNow the work is on every hackers favourite part... Marketing!",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7750502228736877,
+    "token_count": 241
+  },
+  {
+    "id": "50468388",
+    "text": "These platforms die all the time, it's my job to pick the replacement when that happens. Ward used to love Skype, so that's what I used to chat with him. Now that he's gone, and Skype went corporate, I've switched to Discord for chats with my friend Jim.  I've got a VPS server with an instance of a local chat server if that dies, but it's nowhere near as polished.\n\nWhen you're the IT guy for the family, you just make a decision, and nobody else really cares about the details.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7217877507209778,
+    "token_count": 124
+  },
+  {
+    "id": "50482145",
+    "text": "If you want human readers - remember that roughly zero humans will ever read even 0.01% of the world's human-written books.  Sticking your head down the \"human author vs. AI author\" rabbit hole may be a poor use of time.\n\nOr - back when electric typewriters were cutting-edge tech, only a puny percentage of human-written books were accepted for publication.  Writing well is difficult.  Look at bio's of famous authors - roughly zero mastered the skill after only 18 month and one book draft.",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5644547343254089,
+    "token_count": 111
+  },
+  {
+    "id": "50407527",
+    "text": "XMPP is a no go, sorry. There's just no good iOS app (or Android, I think). And you can't come back and say some app you love is feature complete, or whatever. It has to LOOK good.\n\nMatrix will work though. Element X is very polished. Same with FluffyChat. However, I still only bother with getting my immediate household to use it. A \"family\" chat is totally fine with me. And that let's me hook bots and agents up to it.\n\nFor a little plug... it's can very easy, in fact, to get a Matrix server set up these days, including full voice and video chat:\n\nhttps://github.com/pkulak/barnaby-home (https://github.com/pkulak/barnaby-home)",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7170760035514832,
+    "token_count": 184
+  },
+  {
+    "id": "50423861",
+    "text": "I'd like to put in a \"no\" after spending many years writing C++; my day job is in C# now.\n\nThe templating system is more powerful than any other language I have significant experience with, but that also lets people write incomprehensible systems. And the compile times always have been really long.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.6983152627944946,
+    "token_count": 73
+  },
+  {
+    "id": "50423734",
+    "text": "I like writing in C++ because Claude does most of the work and if I structure the source well it compiles much faster than my Rust code.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7095988392829895,
+    "token_count": 34
+  }
+]

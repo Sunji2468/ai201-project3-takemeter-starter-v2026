@@ -1,0 +1,191 @@
+text,label,note,id,source_url,thread_id
+"I'm building an open-source ""spatial workspace for directing AI coding agents like an engineering director"".
+
+I got overwhelmed by walls of text of parallel Claude Code sessions. This limited the sessions I could steer in parallel to maybe 5 or 6. I knew there had to be a better way, and I found one: A canvas per project. Work laid out as cards. An agent in a worktree per card. Chat condensed to WhatsApp-style back and forth, not a litany of tool calls. Result is usually a narrated demo video that I can comment on by voice to have the agent go another round. Remote-control from my phone. Remote workers to scale beyond my machine. Everyone I know who tried it has stuck with it so far.
+
+https://github.com/sadilek/obeya (https://github.com/sadilek/obeya)",firsthand_report,Proposed label confirmed correct by user in chat on 2026-11-13; not cold; Reports being overwhelmed by parallel sessions and building a workspace in response.,50390534,https://news.ycombinator.com/item?id=50390534,50417407
+Trying to send emails via Microsoft Outlook,firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports trying to send email through Outlook.,50482151,https://news.ycombinator.com/item?id=50482151,50481347
+"I really enjoyed writing C++. At least the C++ with for loops, calling functions and the sort. Not so much the c++ of template specifications. I recently saw [1] and the point of C++ building new things with the template mechanics really resonated with me. Features built that way stopped me from using the part of C++ I really liked.
+
+However, I stopped writing C++ once I switched to Rust. I assume I would still enjoy writing C++, as long as I can avoid a lot of the templating features. (I might have a different opinion if I worked on different kinds of C++ projects, eg more people, more library oriented, etc.)
+
+[1] https://www.youtube.com/watch?v=DZTkT1Cq_aY (https://www.youtube.com/watch?v=DZTkT1Cq_aY)",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports stopping C++ work after switching to Rust.,50423819,https://news.ycombinator.com/item?id=50423819,50423371
+"A new editor and processing engine for the Foveon Sensor cameras that were manufactured around 2002-2019.  The existing software is either wildly slow, or does not process according to manufacturer intention.  Think choosing between waiting multiple seconds after every single UI interaction to display changes, or color casts not being handled and the images looking green/magenta in different areas of the shot. One tricky bit is that the 4 different sensor architectures are all processed differently.
+
+This weekend I am modifying the pipelines to be able to operate on downsampled sensor layers so that I can get multi shot editing as snappy as possible.  If you are only displaying 500ish pixels wide, its wild to still be rendering the full 16mp image.  Perfetto has been very helpful while optimizing.
+
+Last weekend I was able to make what I feel like is a generational leap in reducing the noise from these sensors. 
+https://www.dpreview.com/forums/threads/foveonic-process-you... (https://www.dpreview.com/forums/threads/foveonic-process-your-x3fs-in-one-second.4869451/post-71337683)
+
+Up next is redoing the caching/scheduling architecture to reduce the amount of overhead and to support multiplexing downsampled editing so that the images are processed within the same GPU pass instead of N passes * M images serially.
+
+https://github.com/hank-bond/foveonic (https://github.com/hank-bond/foveonic)",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports this and last weekend's image-processing changes.,50420213,https://news.ycombinator.com/item?id=50420213,50417407
+"I write and review C++ all day every day.
+
+The language has left a lot of people behind, and that's for the best. It's a different beast now",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports daily C++ writing and review.,50433150,https://news.ycombinator.com/item?id=50433150,50423371
+"If you think AI is smarter than humans at ""almost everything""...well, it might just be you.
+
+On a side note, I really feel bad for Gen Z. Society has forced them to push AI as far as possible. They probably are the most aware of its limitations. Yet they are also the least able to criticize it without career repercussions.
+
+I suspect this will change soon as more people come around to the fact that their chat bot is another tool just like Google search.
+
+I used to think how wrong it was to compare an LLM to a search engine but have realized over time that despite being wrong, it's still a better mental model because it gets a fundamental detail right; LLMs are tools, they aren't agents, they aren't autonomous, they don't understand things, at least not in the way a human would understand them.
+
+And this all ties back to the OP, that's the problem with calling them ""smarter"". Yes they can solve ancient math problems that humans failed at for many years and yet at the same time cannot be trusted to take a drive through order.
+
+We need to stop seeing LLMs as a replacement for human cognition and instead appreciate what each form of ""intelligence"" brings to the table.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports a change of opinion rather than a concrete firsthand event or practice.,50453859,https://news.ycombinator.com/item?id=50453859,50453369
+"Relic AI: https://app.relic-app.com (https://app.relic-app.com)
+
+Three of us in Sarajevo are building it.
+
+It started because we kept saving things such as articles, Youtube lectures and podcasts, leaving open tabs as reminders for things to come back to later, but couldn't find those resources when we actually needed them, most of the time ending up redoing the research over again.
+
+We have a browser extension for easy saving. It currently supports the page you're on, a PDF tab, all your open tabs, your bookmarks, and Youtube videos (including playlists). Each save gets a summary and tags. Then you can ask it questions, and it answers only from what you saved, with numbered sources. If nothing relevant is saved about what you are asking, it says so.
+
+It's free during the beta and we are actively shipping new features based on user feedback.
+
+I’d love to hear as much feedback as possible.",firsthand_report,Proposed label confirmed correct by user in chat on 2026-11-13; not cold; Reports the team’s difficulty finding saved resources and their ongoing work building an app.,50470795,https://news.ycombinator.com/item?id=50470795,50417407
+"Actually reading through a 35 pages planning doc. One word at a time.
+
+And ctrl+r status.claude.com like I'm Jesse Eisenberg at the end of The Social Network",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports reading a planning document and refreshing a status page.,50481439,https://news.ycombinator.com/item?id=50481439,50481347
+"I never enjoyed programming in C++. I feel its (original) syntax and approach to OOP to be obnoxious. I never looked into C++11, though; I hope things improved. The first love was always for C; notwithstanding all its shortcomings, I feel at home writing C, and I would still enjoy doing so.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Dislike of programming in C++ and syntax is stated as preference without concrete use detail.,50424002,https://news.ycombinator.com/item?id=50424002,50423371
+"I’ve been still working on my Spanish learning project. To summarize it in short, it uses LLMs to generate stories at your specific vocab level. As you read you tap words you don’t know and they get added to a spaced repetition system (SRS). The SRS is then pulled from later when generating stories to help you review those words with context rather than just a flash card.
+
+I’ve been working on the IOS native app for it recently and it’s been fun to work with Swift again, but I forgot how demanding XCode can be.
+
+I would also love to get more users not just for the sake of having a product with a large number of users, but so I can setup load balancers and more interesting architecture. I’ve dealt with that at work a lot but to build all of that from the ground up would be fun.
+
+Website is called https://readplusone.com (https://readplusone.com) if you’re interesting in checking it out.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports ongoing language-learning and iOS development.,50428237,https://news.ycombinator.com/item?id=50428237,50417407
+Funny timing. It's been about a decade since I did anything with C++. Looks like I might be picking it back up for an ESP32 project.,firsthand_report,"AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports past C++ use roughly a decade ago, alongside a future plan.",50453427,https://news.ycombinator.com/item?id=50453427,50423371
+I enjoy using C++ as “C with classes.”,general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Preference for a style of C++ alone does not provide a concrete practice.,50424213,https://news.ycombinator.com/item?id=50424213,50423371
+"Any machine tool worth a damned can rip your arm off and/or kill you. Never google degloving.
+
+The same is true for robots. Safety where they have to share space with humans is distinctly non-trivial.
+
+This matters far more than the compute or feedback systems required. We have robots that do laundry and wash dishes, they shut off when you open them, or sometimes actually lock while in use so you can't open them, for good reasons.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Explains machine safety without a personal event.,50468713,https://news.ycombinator.com/item?id=50468713,50466520
+"I was visiting Ward Christensen on the day he got his first Toshiba laptop. After he got it powered up he realized that he had zero software on the 3 1/2"" disks it used, making it almost useless.
+
+It did have MS-DOS, thus it had debug. He used debug to write an impromptu assembly program to pull across data from one of his other machines via serial cable. He then used that code to pull across xmodem, which was then enough to pull across Qmodem. Then he pulled across laplink and he had rull access to everything.
+
+It took less that 20 minutes total, I think.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports witnessing a laptop setup while visiting Ward Christensen.,50462216,https://news.ycombinator.com/item?id=50462216,50458894
+"yep, i actually liked stl, iterators with auto also seem like a godsend now compared to how verbose they used to be. the biggest pain point for me was keeping track of all the required ctors and operator overloading. admittedly i used it back when all pointers were just *, once i discovered a single line of python could do what it took 10-100 lines of C++ to achieve i switched. so its been a looooong time since i programmed in C++, but i did like it overall.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports previous C++ use and switching to Python.,50424086,https://news.ycombinator.com/item?id=50424086,50423371
+I love coding in c.,general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Enjoyment of coding alone supplies no concrete event or practice.,50445250,https://news.ycombinator.com/item?id=50445250,50423371
+Everything after C++14 is useless bloat that actively makes the language worse and more convoluted.,general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Opinion about C++ versions.,50426119,https://news.ycombinator.com/item?id=50426119,50423371
+"I was there, at the dawn of the Third Age of Mankind... (some called it the dot-com bubble)
+
+I was a mere hobbit with my hobbit-computer pets, but I was holding the reins of something transcendent, untamed, and more colossal than I could imagine. My acquaintances discussing Free Software and stock trading and McMansion Purchases when their diploma ink was barely dry. Hiking through security doors and past Cray, Intel, DEC supercomputers and core routers -- quite the ""wiring closet"". The robots were safely imprisoned behind Plexiglas, and so were the console operators!
+
+I gained enough skill and exhibited talent so as to fall into Silicon Valley, and Glenda deigned to ferry me back and forth, north and south, a one-man tornado wreaking havoc on the Information Superhighway. In the currents off Moffatt Field, and the shadow of Apple Computer's buildings I tried to rewrite network stacks but succumbed to Impostor Syndrome and its complications.
+
+When California was done with me, Big Silicon and Oregon had use of my fingers + neural wetworks for awhile, and then I sprang at an opportunity to support astrobiology exploration and try to figure out an FC-AL SAN under a boss who didn't do Windows.
+
+I had a third comeback. I graduated college. I had a good job and employer over 4 years. But sprinkled in all the family tumult and mental illness torments left me doubtful of what/whom I've been chasing. It was self-discovery, God-discovery, though: I also came to terms with adoption and meeting the strangers of my birth family: the inner life of an adoptee is itself unfathomable to outsiders. Just ask Harry Potter, Luke Skywalker, or Paddington Bear.
+
+I'm scrounging for words now, but: https://en.wikipedia.org/wiki/The_Dreaming (https://en.wikipedia.org/wiki/The_Dreaming) comes to mind, analogous to ""Tears in the Rain"" or Life Is But a Dream or, in the words of the indefatigable programmable roadside sign in L.A. Story:
+
+  There are more things in Heaven and Earth, Horatio, than are dreamt of in your philosophy!
+
+Roadside sign, I hug U!",firsthand_report,"AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports jobs, college, network work, and meeting birth family.",50471729,https://news.ycombinator.com/item?id=50471729,50458894
+"when I didn't know better (i.e., didn't know many other languages), back in 96 to maybe 2002 or so, I tremendously enjoyed C++. I felt so powerful. It was hard to get things right and fast following the literature at the time, but hey, low-level, power, yay!
+
+Then I took a turn and learnt LISP, ML, and a whole potpourri of functional languages. Things were so easy to express in comparison to looking at _all_ the details _all_ the time. I dropped my C++ for quite a while.
+
+Fast forward a decade, and I spent about a decade writing C++11 code. Then C++17. I didn't particularly enjoy it, but it got the job done. In the environment at the time, alternatives were not accepted, so I obliged.
+
+Now I just see loaded and unsecured footguns everywhere when I look at C++. Note that I'm still paid to write C++, but after learning to trust smart compilers in semantically proper languages, learned about data oriented programming, learned about all the bad from the pointer-laden object-oriented style, about the problems of (thread) synchronization C++ style vs. message passing between programs (CSP), ... I grew to despise it.
+
+Frankly, nowadays, I'd rather write in Ada, drop all the ""smart"" constructs whose smell reek through the whole code-base, and all the implied semantics of various interfaces which are not described on language-level but (maybe, hopefully) in the comments ... the everything-and-the-kitchen-sink approach of C++ bites us regularly, but still, the environment has a hard time accepting non-C++ code.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports decades of language learning and paid C++ work.,50424603,https://news.ycombinator.com/item?id=50424603,50423371
+Absolutely.,general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Agreement alone supplies no experience.,50481656,https://news.ycombinator.com/item?id=50481656,50481227
+"Its economics, I'm not going to pay $100k for a robot to empty my dishwasher. I won't even pay $1k to purchase a robot vacuum.
+
+There's no ROI for it at this point in time for consumers. Robots have been automating various things in factories for decades, its not new. Making the robots look like humans and act like humans doesn't really provide value does it?
+
+For example how is a $100-200k robot cashier better than self-checkout or having a teenager get paid $12/hour?",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Hypothetical spending preferences do not report an actual purchase.,50466921,https://news.ycombinator.com/item?id=50466921,50466520
+"A video player focussed on 360 videos.
+
+I got a 360 camera (GoPro MAX v1) for my bicycle, after re-discovering bicycling during COVID. I soon found it was fun to review the video after a ride, but the software was a bit clunky. Upgraded to a DJI Osmo 360, and found the software likewise powerful, but still not what I wanted.
+
+As an audio video developer I knew I could make it work the way I wanted, and this year I finally set about doing that:  https://recap360.app (https://recap360.app)  (macOS-only at the moment).
+
+It’s a ~5MB download from the macOS app store; no in-app ads, no accounts, no ~GB download. It loads the video of a 5-hour bike ride in seconds, direct from MicroSD. Complete with a map overlay & graphs of various internal metadata.  (Speed, altitude, ascent rate, but also internal temperature etc).
+
+It’s been fascinating to see the various tradeoffs the camera vendors make; how much in-camera stabilization & rolling shutter compensation vs how much to leave to the player.  Also interest ing is how the metadata is recorded in the file; some document them, most don’t.
+
+Started with GoPro MAX, added DJI Osmo 360 & Insta360 support.  More coming soon.  Even plays dash cams & body cams (Vantrue & Boblov; I was curious to see how they stored GPS data).",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports buying cameras and developing a video player.,50427167,https://news.ycombinator.com/item?id=50427167,50417407
+"If you look at the code generated by the latest and greatest models, you will still find it sloppy. So I won't say in general that models are already smarter than humans.
+Plus the context windows are still so small, it's like the early days of computers where 256kb of memory was a lot. These little context windows don't let the models tackle very high level of abstraction of work. You still need to babysit them.",general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; General assessment of generated code and context limits.,50458709,https://news.ycombinator.com/item?id=50458709,50453369
+"I built a new abstraction layer for code (https:// www.archme.io), as I believe it's no longer the right medium for understanding and collaboration in the era of AI and 10k LOC PRs.
+
+It scans your codebase, turns it into permanent c4 & sequence diagrams and keeps them up to date on each commit. Then, instead of reviewing a 10k line coding PR, you review a 30 line change to sequence and C4 diagrams.
+
+npm i -g @archme/cli && archme init to run it on your own computer, code never leaves your machine.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports building a code-abstraction tool.,50417905,https://news.ycombinator.com/item?id=50417905,50417407
+Most environments are not robot friendly I think. I think in the future people will build robot friendly X (like home) to ease the software/hardware requirements. Actually governments might build those buildings for UBC programs.,general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Predicts robot-friendly buildings.,50470387,https://news.ycombinator.com/item?id=50470387,50466520
+"I haven't been able to work in C++ for a few months now because of work and other projects, but I still love it, mostly because of how far down it lets you go. The last thing I used it for was reverse engineering Tarkov, only the PvE mode and not PvP because I'm not a dickhead, after a friend of mine was using a cheat there and I got curious whether I could build something similar myself.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports a specific past reverse-engineering project.,50470210,https://news.ycombinator.com/item?id=50470210,50423371
+"Matrix is bad, the protocol is complex, sync is bad, it uses a lot of resources... I had only bad experience with it.
+
+I have an XMPP server which works on a small server, it has been running for nearly 10 years with 0 issues. We are about 20 on it.
+
+I didn't convince them, I installed the client on their device and told them ""use this icon to talk to me"". Then they realized they could talk to each other. They don't care about anything else.
+
+What I'd like to see in an XMPP client:
+
+On desktop:
+
+- something lighter, dino is not bad, but it can use quite a lot of CPU
+- better theming, some people like bubbles, other prefer irc like
+- GIF picker, it could require a server side proxy I don't care, I just want it
+- better control when sending image (crop, quality...)
+
+On mobile:
+
+- better sharing (vcard, image with good control)
+- GIF picker
+- a few UI tweaks, like text colors and layout",firsthand_report,Proposed label confirmed correct by user in chat on 2026-11-13; not cold; Reports running an XMPP server for nearly ten years and installing clients for other people.,50407587,https://news.ycombinator.com/item?id=50407587,50405250
+"There are two ways I see to do this:
+
+1. Tell your agent to eval the skill itself (https://code.claude.com/docs/en/plugin-evals (https://code.claude.com/docs/en/plugin-evals)). This is easier and faster, but less accurate, and harder to extend to capture things like code quality.
+
+2. Build your own benchmark out of work your normally do, and then eval the skill on that dataset. This is harder and more annoying (because creating benchmarks is hard) but provides deeper insight into how the skill affects the agent in known scenarios.
+
+It also depends on what the skill is doing. If it's creating an artifact (like a report, easier to eval) then your strategy is very different than if the skill is changing agent behavior (like telling it to use cheap subagents under XYZ conditions, harder to eval).
+
+The importance of doing this grows with the number of people using the skill. Working on my own projects, I don't usually bother. Working in an enterprise monorepo, suddenly the risk of shipping a bad skill is amplified, and evals become much more attractive.
+
+Also note that skill behavior changes across different models. A skill built for Opus 4.8 may not be necessary on Opus 5.5. A skill built for Opus 5.5 might cause Haiku 5.5 to behave erratically.
+
+TLDR: tell your agent to do it, and think about building your own.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports usually skipping skill evaluations on the writer's own projects.,50427183,https://news.ycombinator.com/item?id=50427183,50426070
+It's not down anymore though.,general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Service-status assertion does not specify the writer's experience.,50481633,https://news.ycombinator.com/item?id=50481633,50481347
+Make sure that everyone in your family is a huge nerd. That’s the only way.,general_response,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; General advice about family adoption.,50405882,https://news.ycombinator.com/item?id=50405882,50405250
+"A series of actually hard puzzle books, so far sudoku, killer sudoku and some fiendish wordsearches that only use 5 letters per grid.
+
+https://extremepuzzlebooks.com (https://extremepuzzlebooks.com)
+
+A sample wordsearch is available as a pdf here:
+https://extremepuzzlebooks.com/assets/sample/extreme-wordsea... (https://extremepuzzlebooks.com/assets/sample/extreme-wordsearch-sample.pdf)
+
+I'm quite proud of this wordsearch concept as I've not seen it done before.
+
+All the logic puzzles have an online solution to show step by step how you can complete them.
+
+https://extremepuzzlebooks.com/walkthroughs (https://extremepuzzlebooks.com/walkthroughs)
+
+I've been working on the software to generate, test and verify these for a couple of years and finally built up enough puzzle stock that meets the difficulty requirements to properly launch.
+
+Now the work is on every hackers favourite part... Marketing!",firsthand_report,Proposed label confirmed correct by user in chat on 2026-11-13; not cold; Reports years of work on puzzle-generation software and a resulting product launch.,50418936,https://news.ycombinator.com/item?id=50418936,50417407
+"These platforms die all the time, it's my job to pick the replacement when that happens. Ward used to love Skype, so that's what I used to chat with him. Now that he's gone, and Skype went corporate, I've switched to Discord for chats with my friend Jim.  I've got a VPS server with an instance of a local chat server if that dies, but it's nowhere near as polished.
+
+When you're the IT guy for the family, you just make a decision, and nobody else really cares about the details.",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports changing communication services for named friends.,50468388,https://news.ycombinator.com/item?id=50468388,50405250
+"If you want human readers - remember that roughly zero humans will ever read even 0.01% of the world's human-written books.  Sticking your head down the ""human author vs. AI author"" rabbit hole may be a poor use of time.
+
+Or - back when electric typewriters were cutting-edge tech, only a puny percentage of human-written books were accepted for publication.  Writing well is difficult.  Look at bio's of famous authors - roughly zero mastered the skill after only 18 month and one book draft.",general_response,Proposed label confirmed correct by user in chat on 2026-11-13; not cold; Offers general publishing advice and historical comparisons without a personal event.,50482145,https://news.ycombinator.com/item?id=50482145,50481227
+"XMPP is a no go, sorry. There's just no good iOS app (or Android, I think). And you can't come back and say some app you love is feature complete, or whatever. It has to LOOK good.
+
+Matrix will work though. Element X is very polished. Same with FluffyChat. However, I still only bother with getting my immediate household to use it. A ""family"" chat is totally fine with me. And that let's me hook bots and agents up to it.
+
+For a little plug... it's can very easy, in fact, to get a Matrix server set up these days, including full voice and video chat:
+
+https://github.com/pkulak/barnaby-home (https://github.com/pkulak/barnaby-home)",firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports getting the immediate household to use Matrix.,50407527,https://news.ycombinator.com/item?id=50407527,50405250
+"I'd like to put in a ""no"" after spending many years writing C++; my day job is in C# now.
+
+The templating system is more powerful than any other language I have significant experience with, but that also lets people write incomprehensible systems. And the compile times always have been really long.",firsthand_report,Proposed label confirmed correct by user in chat on 2026-11-13; not cold; Reports years of writing C++ and a current C# day job.,50423861,https://news.ycombinator.com/item?id=50423861,50423371
+I like writing in C++ because Claude does most of the work and if I structure the source well it compiles much faster than my Rust code.,firsthand_report,AI-assisted label by Codex on 2026-11-16; not independently reviewed by student; Reports using Claude in the writer's C++ workflow and observing compile time.,50423734,https://news.ycombinator.com/item?id=50423734,50423371
