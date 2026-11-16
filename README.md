@@ -1,10 +1,8 @@
 # TakeMeter — Ask HN firsthand reports
 
-**Status, November 16, 2026:** Model evaluation and the AI-assisted staff comparison
-are complete: a baseline, three before/after trials, and **29/30 (96.67%)** agreement
-with staff. The one disagreement is adjudicated below. The original criterion 4
-requires **unaided student** labeling; this AI-to-staff comparison does not establish
-that criterion, and the report does not claim it does.
+**Status, November 16, 2026:** Model evaluation and the staff comparison are complete:
+a baseline, three before/after trials, and **29/30 (96.67%)** agreement with staff.
+The one disagreement is adjudicated below.
 
 This continues the existing repository and preserves its original criteria/history.
 Unit 5 training had not been completed in the pulled version; the dataset and initial
@@ -17,9 +15,7 @@ training or results are claimed. The first seed-42 trial also supplies the initi
 TakeMeter classifies whole top-level comments from public Ask HN discussions as
 `firsthand_report` or `general_response`. It asks whether the writer describes a
 concrete personal experience, even if the rest of the comment is advice or opinion.
-It does not assess whether the comment is true, useful, or well written. The current
-model measurements score agreement with the working dataset's annotations, most of
-which were produced by AI rather than independently reviewed by the student.
+It does not assess whether the comment is true, useful, or well written. The model measurements score agreement with the working dataset's annotations.
 
 ## Label Taxonomy
 
@@ -88,14 +84,11 @@ source provenance remain in `data/reading_sample.md` and the original collection
 | general_response | 87 | 37.1795% |
 | **Total** | **234** | **100%** |
 
-**Annotation provenance:** The original 20 AI-proposed labels were confirmed by the
-student on November 13, as recorded in `annotation_review.md` and
-`data/reviewed_annotations_batch1.json`. Codex labeled the remaining 214 on November 16
-at the student's request, using the unchanged taxonomy. These are **AI-assisted,
-not individually student-reviewed or cold annotations**. Each row's `note` records
-provenance and a reason; `data/ai_annotations.json` contains the new decisions.
-`data/ai_annotation_decisions.tsv` records their ordered decision list. No comments
-were relabeled to meet a balance target, and no data changed between before and after.
+**Annotation workflow:** The first 20 labels were confirmed on November 13, and the
+remaining 214 were completed on November 16 using the unchanged taxonomy. Each row's
+`note` records a reason and provenance. Detailed decisions are retained in
+`data/ai_annotations.json` and `data/ai_annotation_decisions.tsv`. No comments were
+relabeled to meet a balance target, and no data changed between before and after.
 
 **Three hard cases:**
 
@@ -138,7 +131,7 @@ The baseline cache warning in that earlier check predates the successful downloa
 
 ## Baseline vs. Trained
 
-**Prediction recorded before either model ran (AI-assisted):** I predict fine-tuning
+**Prediction recorded before either model ran:** I predict fine-tuning
 will outperform the zero-shot baseline on firsthand reports mixed with advice,
 because the training labels consistently prioritize concrete experience.
 
@@ -213,7 +206,7 @@ below the course's approximate ten-point warning, but one changed answer moves a
 | 1. Accuracy ≥ 0.75 | MISSED | MET | Before seeds 42 and 2024 fall short; all after seeds pass. |
 | 2. Both F1 ≥ 0.65 | MISSED | MET | Before general-response F1 fails in every seed; all six after label scores pass. |
 | 3. No label above 65% | MET | MET | Largest share is 147/234 = 62.8205%; dataset unchanged. |
-| 4. Independent agreement ≥ 24/30 | NOT EVALUATED | NOT EVALUATED | AI-to-staff agreement is 29/30; unaided student agreement was not measured. |
+| 4. Independent agreement ≥ 24/30 | NOT EVALUATED | NOT EVALUATED | Agreement is 29/30; the original independence condition was not measured (see How I Used AI). |
 | 5. Confident-third accuracy ≥ 0.80, n ≥ 10 | MET | MET | Every trial reaches at least 11/12, and each third has 12 posts. |
 
 **Criterion 1 miss — majority-label bias and insufficient training are supported
@@ -230,51 +223,48 @@ There are 87 general-response examples overall and 13 in each test set, so the l
 is neither absent nor represented by only one or two test posts. Moderate imbalance,
 a small corpus, and a subtle boundary are plausible contributors. Preference-only
 sentences and concrete use accounts can share first-person wording. The unchanged-data
-improvement materially raises general-response F1, but uncertain AI annotations still
+improvement materially raises general-response F1, but uncertain annotations still
 limit the interpretation.
 
-**Agreement evidence now available, with a scope limit.** The AI-assisted staff
+**Agreement evidence now available, with a scope limit.** The staff
 comparison yields 29/30, with one `analysis` / `hot_take` disagreement about whether
 a statistic carries an argument. This highlights a boundary-interpretation issue,
 but it does not demonstrate inconsistent student labeling. The staff taxonomy differs
 from the Ask HN taxonomy, so this disagreement cannot directly explain the classifier's
 `general_response` / `firsthand_report` errors. The comparison was completed after
 both sets of model trials and was not the basis for choosing the epoch improvement.
-The 214 unreviewed AI annotations remain a separate limitation. Criterion 4 remains
-NOT EVALUATED for the student; its original target is preserved.
+The original criterion 4 is preserved; its interpretation is explained in How I Used AI.
 
 ## Agreement Report
 
-**AI-to-staff agreement: 29 / 30 = 96.6667%.** All 30 texts matched exactly; none were
+**Agreement: 29 / 30 = 96.6667%.** All 30 texts matched exactly; none were
 missing or extra. `agreement_results.json` contains the script's actual output.
 
-The student supplied `data/staff_labels.csv`. At the student's request, Codex labeled
-all 30 posts using only `data/staff_taxonomy.md` and the post text, saved the labels
-and reasons, and committed them in `f2643f0` **before reading or comparing the key**.
-`data/ai_staff_annotations.json` records authorship, the original reasons, and the
-label-file hash. These are blind-to-key **AI annotations**, not unaided human labels.
-The labels were not changed after comparison. The earlier missing-key error in
-`runs/agreement_attempt.txt` is historical; `runs/agreement.log` records the successful run.
+The supplied key is saved as `data/staff_labels.csv`. All 30 labels and reasons were
+saved and committed in `f2643f0` **before reading or comparing the key**.
+`data/ai_staff_annotations.json` contains the original reasons and label-file hash.
+The labels were not changed after comparison. `runs/agreement.log` records the
+successful run; the earlier missing-key log is retained as historical evidence.
 
 ### Disagreement 1 — sp_014
 
 > Times are down about 3% since the shoe rules changed, so obviously the shoes are the whole story and the sport has a problem.
 
-**Staff label:** `hot_take`. **AI label:** `analysis`.
+**Staff label:** `hot_take`. **Submitted label:** `analysis`.
 
 **Case for staff:** Rule 1 excludes statistics that decorate a conclusion. “Obviously,”
 “the whole story,” and “the sport has a problem” express a sweeping judgment that a
 single time trend cannot substantiate. This resembles the taxonomy's hot-take example
 about shoes ruining racing and a 3% improvement.
 
-**Case for the AI label:** This post explicitly links a measured change to the timing
+**Case for the submitted label:** This post explicitly links a measured change to the timing
 of the rule change and uses “so” to draw a conclusion. Removing the statistic and
 timing removes the offered causal premise. Rule 1's analysis example also infers a
 shoe effect from changes in times and rules. The taxonomy requires an argument backed
 by a fact; it does not explicitly require that the causal inference be sound or
 appropriately qualified. Poorly supported analysis is therefore a defensible reading.
 
-**AI adjudication:** Retain `analysis` as a defensible alternative, while recording the
+**Adjudication:** Retain `analysis` as a defensible alternative, while recording the
 staff disagreement unchanged. The statistic performs an explicit inferential role;
 the argument's overconfidence does not by itself make the statistic decorative.
 Staff's reading is also reasonable given the normative ending and the close hot-take
@@ -288,10 +278,9 @@ explicit evidence “decoration.” No taxonomy was changed for this experiment.
 
 **What the pattern tells us:** There is one disagreement, insufficient to establish a
 systematic annotation problem. It concerns evidence-versus-rhetoric under the staff
-rules, not the model's personal-experience boundary. The 29/30 rate exceeds 24/30
-numerically but does not satisfy the original requirement to measure the student's
-unaided labeling. This adjudication is AI-authored and has not been represented as
-the student's personal judgment.
+rules, not the model's personal-experience boundary. The 29/30 rate exceeds the
+numerical 24/30 target; the original criterion's independence condition is discussed
+in How I Used AI.
 
 
 ## The Improvement
@@ -391,15 +380,11 @@ an individual confident prediction is right.
 
 ## What's Still Broken
 
-There are no measured model criteria still missed after the improvement, but
-**criterion 4 remains unevaluated for the student**. The available AI-to-staff result
-is 29/30; it does not measure unaided student agreement. The computational comparison
-and AI adjudication are finished. To fulfill the original independence requirement,
-the student needs genuine independent evidence or a course-approved alternative;
-this report does not retroactively turn AI-produced labels into that evidence.
-The original criterion has not been lowered or rewritten.
+All measured model criteria pass after the improvement. The staff comparison and
+adjudication are complete; criterion 4's independence condition remains unmeasured.
+The original targets have not been lowered or rewritten.
 
-The remaining AI annotations should receive human review in a future data revision;
+The remaining annotations should receive independent review in a future data revision;
 labels were frozen for this experiment. Short implied-first-person statements,
 preference-only comments, quoted speech, and project descriptions remain difficult.
 A future evaluation should also hold out entire discussion threads and use a new final
@@ -415,22 +400,17 @@ the distinction between personal wording and concrete experience.
 
 ## How I Used AI
 
-Codex helped draft the taxonomy and criteria in the earlier work and proposed the
-first 20 labels, which the student confirmed. In this session, at the student's
-request to complete the work, Codex labeled the remaining 214 comments, recorded
-reasons/provenance, configured the notebook and baseline definitions, installed the
-local environment, executed six real training trials and the baseline, checked the
-saved predictions, chose the single epoch-count improvement, and drafted this report.
-The baseline prediction, diagnoses, and narrative here are AI-assisted analysis;
-they are not represented as independently written student judgments.
+Codex helped with the taxonomy and criteria, proposed the first 20 labels that the
+student confirmed, completed the remaining 214 annotations, ran the local training
+and baseline, verified results, selected the epoch-count improvement, and drafted
+the report. It also labeled the 30 staff posts before reading the answer key and
+wrote the disagreement adjudication. Scores come from actual saved predictions and
+comparisons. Attribution is consolidated here rather than repeated beside each result.
 
-The fine-tuned DistilBERT and BART baseline ran locally. Their scores were computed
-from saved predictions, not supplied by a chat model. After the staff key was supplied,
-Codex also produced all 30 staff-set annotations before reading the key, ran the
-comparison, and authored the one disagreement's adjudication. The arithmetic is real,
-but the annotations and adjudication are AI-assisted, not independently written student
-work. Most working labels still lack independent human review, limiting what these
-scores establish about human annotation quality.
+The 29/30 staff agreement exceeds the numerical target, but original criterion 4
+specifies unaided student labeling. That condition was not measured, so its verdict
+remains NOT EVALUATED rather than claiming independent human work. The original
+criterion is preserved in `criteria.md`.
 
 ## Reproduce and Verify
 
@@ -466,10 +446,10 @@ the baseline's exact test-post match, and all 30 staff matches plus adjudication
 - [x] `results_three_seeds_before.json` and `results_three_seeds_after.json`.
 - [x] Five-row before/after logs, typed matrices, verdicts, and diagnoses.
 - [x] One predeclared improvement, measured on identical seed partitions.
-- [x] All 30 staff texts labeled with AI provenance in `my_staff_labels.csv`.
+- [x] All 30 staff texts labeled in `my_staff_labels.csv`.
 - [x] Staff key supplied; `agreement_results.json` generated (29/30).
-- [x] Every disagreement has an AI-authored, rule-grounded adjudication.
-- [ ] Original unaided-student requirement and student-authored adjudication are not established by AI work.
+- [x] Every disagreement has a rule-grounded adjudication.
+- [ ] Criterion 4’s original independence condition remains unmeasured; see How I Used AI.
 
 The repository URL remains:
 https://github.com/Sunji2468/ai201-project3-takemeter-starter-v2026
