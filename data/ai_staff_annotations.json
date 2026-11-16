@@ -1,0 +1,188 @@
+{
+  "annotator": "Codex (AI)",
+  "unaided_student_work": false,
+  "staff_key_read_before_labeling": false,
+  "labels_sha256": "348bbadf6defff2bd5fc6ad45bfc5ada164b150234369d0e9400910af5553ab1",
+  "annotations": [
+    {
+      "id": "sp_001",
+      "text": "Pulled the splits from the last five editions. The winning time has moved by 40 seconds total in ten years, but the 100th-place time is four minutes faster. The depth changed, the front didn't.",
+      "label": "analysis",
+      "reason": "The winning-time and 100th-place changes support the conclusion about field depth."
+    },
+    {
+      "id": "sp_002",
+      "text": "I tracked sleep against session quality for eleven weeks. Under seven hours the next day's intervals were 6-8 seconds per mile slower, every time bar one. Small sample, one runner, but it's consistent enough that I've stopped scheduling hard days after late shifts.",
+      "label": "analysis",
+      "reason": "Eleven weeks of measured sleep/session differences justify changing hard-day scheduling."
+    },
+    {
+      "id": "sp_003",
+      "text": "The club championship scoring changed in 2019 from top-6 to top-10. Since then our B team has finished above the A team twice. That's not depth improving, it's the scoring rewarding turnout.",
+      "label": "analysis",
+      "reason": "The 2019 scoring rule and B-team results support an explanation based on turnout."
+    },
+    {
+      "id": "sp_004",
+      "text": "Everyone blames the hill at 18 miles. I split the field into people who ran the first half under 1:45 and over, and the slowdown after 18 was almost identical for both groups. If the hill were the problem the fast starters would fall apart harder.",
+      "label": "analysis",
+      "reason": "The compared pace groups supply evidence for rejecting the hill explanation, even if the inference can be questioned."
+    },
+    {
+      "id": "sp_005",
+      "text": "Carbon plates aren't the whole story. My times dropped 2% in the shoes and another 2% the following year in the same pair, when the only thing that changed was going from 35 to 50 miles a week.",
+      "label": "analysis",
+      "reason": "Two measured improvements with the same shoes distinguish training changes from shoe effects."
+    },
+    {
+      "id": "sp_006",
+      "text": "Checked the entry lists. 41% of this year's field have never run the distance before, against 26% five years ago. That's why the finish-line photos look different, not because standards dropped.",
+      "label": "analysis",
+      "reason": "The 41% versus 26% entry comparison supports a claim about changing participation."
+    },
+    {
+      "id": "sp_007",
+      "text": "Ran the same loop in 4C and in 24C within a fortnight, same effort by heart rate. 90 seconds slower in the heat over six miles. People keep saying heat costs you 'a bit' and it's more than that.",
+      "label": "analysis",
+      "reason": "Temperature, distance, heart-rate effort, and time difference support the heat-cost argument."
+    },
+    {
+      "id": "sp_008",
+      "text": "Went back through the club results going back to 2012. Every single year the number of people who enter the spring marathon and don't start it sits between 18 and 23 percent. It's not a bad-luck year, it's the base rate.",
+      "label": "analysis",
+      "reason": "The repeated 18\u201323% non-start rate supports a base-rate explanation."
+    },
+    {
+      "id": "sp_009",
+      "text": "The 10K route was remeasured in 2021 and came out 60 metres long. Everyone comparing PBs from before and after that is comparing two different races, which is about 12 seconds at club pace.",
+      "label": "analysis",
+      "reason": "The remeasurement and estimated time difference support the warning against comparing PBs."
+    },
+    {
+      "id": "sp_010",
+      "text": "Three of us ran the same session on the same day, different shoes, within 10 seconds of each other over 5 miles. I'm not saying shoes do nothing, but whatever they do was smaller than the noise between three people.",
+      "label": "analysis",
+      "reason": "The matched session and small spread support a qualified claim about shoe effects versus other variation."
+    },
+    {
+      "id": "sp_011",
+      "text": "Anyone who races more than once a month isn't training, they're just collecting medals.",
+      "label": "hot_take",
+      "reason": "General judgment about frequent racers with no supporting observation."
+    },
+    {
+      "id": "sp_012",
+      "text": "Heart rate zones are astrology for runners.",
+      "label": "hot_take",
+      "reason": "Unsupported analogy dismissing heart-rate zones."
+    },
+    {
+      "id": "sp_013",
+      "text": "The club needs to stop pretending the Tuesday session is for everyone. It isn't and it never has been.",
+      "label": "hot_take",
+      "reason": "Confident assertion about club-session inclusivity without evidence."
+    },
+    {
+      "id": "sp_014",
+      "text": "Times are down about 3% since the shoe rules changed, so obviously the shoes are the whole story and the sport has a problem.",
+      "label": "analysis",
+      "reason": "The explicit since/so causal link makes the 3% change evidence for the shoe claim. The inference overreaches, but weak evidence is still offered; the rule does not require a sound causal identification."
+    },
+    {
+      "id": "sp_015",
+      "text": "Marathon training plans are all the same plan with different fonts.",
+      "label": "hot_take",
+      "reason": "Unsupported generalization about training plans."
+    },
+    {
+      "id": "sp_016",
+      "text": "If you need a gel before 90 minutes you have a fuelling problem, not an energy problem.",
+      "label": "hot_take",
+      "reason": "The 90-minute threshold is part of the assertion, not evidence offered for it."
+    },
+    {
+      "id": "sp_017",
+      "text": "Road racing peaked in about 2015 and everything since has been marketing.",
+      "label": "hot_take",
+      "reason": "The year identifies an asserted peak but no comparison supports the claim."
+    },
+    {
+      "id": "sp_018",
+      "text": "Track sessions are wasted on anyone running slower than 8 minute miles. You'd get more out of just running more.",
+      "label": "hot_take",
+      "reason": "The pace cutoff defines the claimed group; it does not support the training recommendation."
+    },
+    {
+      "id": "sp_019",
+      "text": "Nobody actually enjoys the long run. They enjoy having done it, which is a completely different thing, and the sport would be more honest if it said so.",
+      "label": "hot_take",
+      "reason": "General assertion about what all runners enjoy, rather than a recent personal response."
+    },
+    {
+      "id": "sp_020",
+      "text": "Every injury thread on this forum is the same injury and the same three replies.",
+      "label": "hot_take",
+      "reason": "Absolute claim about forum threads with no concrete examples or counts."
+    },
+    {
+      "id": "sp_021",
+      "text": "Four minutes off. FOUR. I've been chasing that time for two years and I'm sat on the kerb outside the finish just grinning at nothing.",
+      "label": "reaction",
+      "reason": "Recent finish-line joy; numbers describe the achievement rather than support an argument."
+    },
+    {
+      "id": "sp_022",
+      "text": "Got up at 5, drove ninety minutes, and it's cancelled. Standing in the car park in the rain reading the email.",
+      "label": "reaction",
+      "reason": "Immediate frustration at a cancellation, with time/distance giving context."
+    },
+    {
+      "id": "sp_023",
+      "text": "First run back after eight weeks out. Two miles, slower than my warm-up used to be, and I don't care even slightly.",
+      "label": "reaction",
+      "reason": "Emotional response to the first run back; distances describe the experience."
+    },
+    {
+      "id": "sp_024",
+      "text": "Watching the last 400 of that and I had to stand up. Still standing up actually.",
+      "label": "reaction",
+      "reason": "Immediate physical/emotional response to watching a finish."
+    },
+    {
+      "id": "sp_025",
+      "text": "Blew up at 20 with the pace band still in my hand like it was going to help. Rough one.",
+      "label": "reaction",
+      "reason": "Reports a disappointing personal race experience rather than a general claim."
+    },
+    {
+      "id": "sp_026",
+      "text": "Someone handed my kid an orange slice at mile 22 and I have been crying on and off since.",
+      "label": "reaction",
+      "reason": "Recent emotional response to a kindness toward the writer\u2019s child."
+    },
+    {
+      "id": "sp_027",
+      "text": "Wind was so bad on the out section I was leaning at about 20 degrees. Coming back felt like cheating.",
+      "label": "reaction",
+      "reason": "Personal wind experience and feeling on the return leg; the angle is descriptive, not an argumentative premise."
+    },
+    {
+      "id": "sp_028",
+      "text": "Third DNF this year. I don't really want to talk about it, just wanted to put it somewhere.",
+      "label": "reaction",
+      "reason": "Personal disappointment and a wish to express it after another DNF."
+    },
+    {
+      "id": "sp_029",
+      "text": "Just realised the shoes I set every PB in this year are the ones I bought by accident in the wrong size.",
+      "label": "reaction",
+      "reason": "Immediate realization about personal shoes and PBs, without an explicit explanatory argument."
+    },
+    {
+      "id": "sp_030",
+      "text": "Signed up. Card's charged, no going back, immediately regret everything.",
+      "label": "reaction",
+      "reason": "Immediate regret after registration and payment."
+    }
+  ]
+}
