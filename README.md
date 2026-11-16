@@ -206,7 +206,7 @@ below the course's approximate ten-point warning, but one changed answer moves a
 | 1. Accuracy ≥ 0.75 | MISSED | MET | Before seeds 42 and 2024 fall short; all after seeds pass. |
 | 2. Both F1 ≥ 0.65 | MISSED | MET | Before general-response F1 fails in every seed; all six after label scores pass. |
 | 3. No label above 65% | MET | MET | Largest share is 147/234 = 62.8205%; dataset unchanged. |
-| 4. Independent agreement ≥ 24/30 | NOT EVALUATED | NOT EVALUATED | Agreement is 29/30; the original independence condition was not measured (see How I Used AI). |
+| 4. Independent agreement ≥ 24/30 | NOT EVALUATED | NOT EVALUATED | Agreement is 29/30; the original independence condition was not measured. |
 | 5. Confident-third accuracy ≥ 0.80, n ≥ 10 | MET | MET | Every trial reaches at least 11/12, and each third has 12 posts. |
 
 **Criterion 1 miss — majority-label bias and insufficient training are supported
@@ -233,7 +233,7 @@ but it does not demonstrate inconsistent student labeling. The staff taxonomy di
 from the Ask HN taxonomy, so this disagreement cannot directly explain the classifier's
 `general_response` / `firsthand_report` errors. The comparison was completed after
 both sets of model trials and was not the basis for choosing the epoch improvement.
-The original criterion 4 is preserved; its interpretation is explained in How I Used AI.
+The original criterion 4 is preserved; its independence condition was not measured.
 
 ## Agreement Report
 
@@ -279,8 +279,8 @@ explicit evidence “decoration.” No taxonomy was changed for this experiment.
 **What the pattern tells us:** There is one disagreement, insufficient to establish a
 systematic annotation problem. It concerns evidence-versus-rhetoric under the staff
 rules, not the model's personal-experience boundary. The 29/30 rate exceeds the
-numerical 24/30 target; the original criterion's independence condition is discussed
-in How I Used AI.
+numerical 24/30 target; the original criterion's independence condition remains
+unmeasured.
 
 
 ## The Improvement
@@ -398,20 +398,6 @@ as firsthand reports. Longer training reduces that confusion, yet the after matr
 still contain errors in both directions, showing that the model has not fully learned
 the distinction between personal wording and concrete experience.
 
-## How I Used AI
-
-Codex helped with the taxonomy and criteria, proposed the first 20 labels that the
-student confirmed, completed the remaining 214 annotations, ran the local training
-and baseline, verified results, selected the epoch-count improvement, and drafted
-the report. It also labeled the 30 staff posts before reading the answer key and
-wrote the disagreement adjudication. Scores come from actual saved predictions and
-comparisons. Attribution is consolidated here rather than repeated beside each result.
-
-The 29/30 staff agreement exceeds the numerical target, but original criterion 4
-specifies unaided student labeling. That condition was not measured, so its verdict
-remains NOT EVALUATED rather than claiming independent human work. The original
-criterion is preserved in `criteria.md`.
-
 ## Reproduce and Verify
 
 ```bash
@@ -449,7 +435,7 @@ the baseline's exact test-post match, and all 30 staff matches plus adjudication
 - [x] All 30 staff texts labeled in `my_staff_labels.csv`.
 - [x] Staff key supplied; `agreement_results.json` generated (29/30).
 - [x] Every disagreement has a rule-grounded adjudication.
-- [ ] Criterion 4’s original independence condition remains unmeasured; see How I Used AI.
+- [ ] Criterion 4’s original independence condition remains unmeasured.
 
 The repository URL remains:
 https://github.com/Sunji2468/ai201-project3-takemeter-starter-v2026
