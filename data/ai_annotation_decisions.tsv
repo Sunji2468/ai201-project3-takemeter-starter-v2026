@@ -1,0 +1,215 @@
+index	code	reason
+0	G	Rhetorical question about value and soul; no firsthand event.
+1	G	The personal account is quoted; the writer contributes an opinion.
+2	G	Predicts difficulty distinguishing AI and human work.
+3	G	Suggests prompts and editing approaches without reporting using them.
+4	G	Recommends hiring an editor.
+5	G	Expresses a preference for human work.
+6	G	Agreement alone supplies no experience.
+7	G	Reading preferences and hypothetical summarization do not establish a concrete practice.
+8	F	Reports two recent authentication outages affecting the writer's agents.
+9	F	Reports a layoff and building a CRM for the writer's father.
+10	F	Describes the writer's ongoing OneBusAway development work.
+11	F	Reports shutting down a service and replacing a VPS today.
+12	F	Describes personally reverse engineering a Samsung phone.
+13	F	Reports ongoing work on stock visualizations.
+14	F	Describes the port as an interesting learning process, implying firsthand development.
+15	F	Reports server migration, lamp construction, and other current activities.
+16	F	Reports team development and previous work building private clouds.
+17	F	Reports launching an app while on maternity leave.
+18	F	Reports building and revisiting a mains-frequency measurement tool.
+19	F	Reports building a browser in C and its present implementation state.
+20	F	Reports launching and updating a browser extension.
+21	F	Reports exercise-bike use and building and testing a game prototype.
+22	F	Lists actual porting work and personally completed OpenSSL changes.
+23	G	Describes an app without identifying the writer as its maker or user.
+24	F	Reports building sunset alerts over recent weeks.
+25	F	Reports sports-company employment and development of a scores site.
+26	F	Reports replacing personal classification workflows.
+27	F	Reports team use and optimization of Qwen2-7B.
+28	F	Reports using the model in an RPG despite opening with advice.
+29	G	Explains possible use cases without reporting an actual implementation.
+30	G	Recommends deterministic routing designs.
+31	G	General claim about specialized models.
+32	F	Reports current use as a router with specific side effects.
+33	F	Reports a current listening activity, with first person implied.
+34	G	Service-status assertion does not specify the writer's experience.
+35	F	Reports watching particular reels, with first person implied.
+36	F	Reports trying to send email through Outlook.
+37	F	Reports reading a planning document and refreshing a status page.
+38	G	Asks a question and summarizes a novel without saying the writer read it.
+39	G	Sarcastic reaction and suggestion.
+40	F	Reports past and continuing C++ use and switching to Rust.
+41	F	Reports professional and personal C++ projects.
+42	G	Evaluates language capabilities without a concrete personal use account.
+43	F	Reports organizing a user group and migrating to Rust.
+44	F	Reports thesis work and replacing CUDA C++ with Python.
+45	F	Still writing C++ describes an ongoing specific practice.
+46	F	Reports using a C++ subset and reading a Rust book.
+47	G	Contrasts enjoyment and dread without a concrete event or practice.
+48	F	Reports embedded development and team build-system difficulties.
+49	F	Reports using C++ for embedded and Linux work.
+50	F	Reports daily C++ writing and review.
+51	G	Dislike of programming in C++ and syntax is stated as preference without concrete use detail.
+52	G	Praises C++ capabilities and RAII without a concrete practice.
+53	F	Reports stopping C++ work after switching to Rust.
+54	F	Recalls experiencing compiler error messages in the early 1990s.
+55	F	Reports first encountering C++ in 1992.
+56	F	Recalls high-school viewing and recently finding HN.
+57	G	Predicts platform migration.
+58	G	Offers advice and hopes for AI's future.
+59	G	General explanation of spam and AI.
+60	F	Reports leaving gaming a decade ago before offering advice.
+61	F	Reports visiting and observing a Costco food court.
+62	G	Explains machine safety without a personal event.
+63	G	Explains automation challenges and hypothetical environments.
+64	G	Hypothetical spending preferences do not report an actual purchase.
+65	F	Reports previously working as a form carpenter.
+66	G	Predicts robot-friendly buildings.
+67	G	Explains safety and legal challenges.
+68	G	Installation recommendation and link only.
+69	G	Explains machine learning and gives hypothetical failure examples.
+70	G	General claim about automation economics.
+71	G	Opinion about reliability challenges.
+72	G	Hypothetical purchases and preferences; no actual robot use.
+73	G	Opinion and prediction about hardware costs.
+74	G	One-word cost assessment.
+75	G	One-word reaction.
+76	F	Reports posting a product on Show HN and receiving particular responses.
+77	G	Social-media recommendation.
+78	G	Economic opinion and advice without personal action.
+79	F	Reports persuading family to adopt Signal and personal XMPP use.
+80	G	Vague learned lesson gives no concrete personal event or practice.
+81	G	Recommendations and a stated lack of Matrix use; contemplated setup is not completed work.
+82	F	Reports pitching and using a family XMPP server.
+83	F	Reports setting up chatmail and installing clients during an outage.
+84	F	Reports making Snikket and moving family communication.
+85	F	Reports installing Conversations and disabling competing notifications.
+86	F	Reports changing communication services for named friends.
+87	F	Reports discovering family members' different privacy preferences while trying to switch.
+88	F	Reports bridging services, helping users, and running a server.
+89	F	Reports a move from Skype to Matrix after years of use.
+90	F	Reports years of personal Signal communication.
+91	G	Questions the motivation for persuading others.
+92	G	Denies doing the action and offers a general norm; no concrete positive account.
+93	F	Reports getting the immediate household to use Matrix.
+94	G	Question and recommendation.
+95	G	Asks about workplace communication options.
+96	F	Reports a Plex adoption attempt and resulting account requests.
+97	G	General argument about security and collective action.
+98	G	Speculates about broad constraints on AI adoption.
+99	G	Opinion about delegation and intelligence.
+100	G	Opinion about access to capital.
+101	F	Reports personally asking AI questions and repeatedly trying it on tasks.
+102	G	Opinion about imagination and AI-generated art.
+103	G	General assessment of generated code and context limits.
+104	G	Explains barriers to commercialization.
+105	G	Reports a change of opinion rather than a concrete firsthand event or practice.
+106	F	Reports an observation of intelligent people the writer personally knows.
+107	G	Opinion about turning ideas into action.
+108	G	Opinion about human inertia.
+109	F	Reports Bitcoin development and use during specified years.
+110	G	General claims about real-world problem solving.
+111	F	Reports witnessing a laptop setup while visiting Ward Christensen.
+112	F	Describes first experiences of cinema and city life at age 23.
+113	F	Reports childhood farm work and reading habits.
+114	G	Interpretation of fiction and speculation about future AI.
+115	F	Reports observing a particular successful coding-agent session.
+116	F	Recalls cassette, website creation, and dial-up experiences.
+117	F	Explicitly reports having seen Blade Runner, despite asking an interpretation question.
+118	F	Reports a first management role and its responsibilities.
+119	F	Reports jobs, college, network work, and meeting birth family.
+120	G	General evaluation of HN without a concrete personal experience.
+121	F	Reports usually skipping skill evaluations on the writer's own projects.
+122	G	Recommends evaluations and benchmarks.
+123	F	Reports recently reading a particular job vacancy.
+124	G	Questions and frames a discussion about surveillance.
+125	F	Reports ongoing IDE work and operating a Discord group.
+126	G	Generalized sarcastic claims about AI adoption.
+127	F	Reports a specific interview experience before recommending an approach.
+128	F	Reports observations across companies the writer works with.
+129	F	Reports recurring interview experiences as a JavaScript programmer.
+130	F	Reports Snagit use and building a replacement.
+131	F	Reports current optimization of a React implementation, beyond planned migration.
+132	F	Reports a layoff and current Rust and puzzle-game work.
+133	F	Reports developing and demonstrating a competition environment.
+134	F	Reports RSS-reader development and recently added capabilities.
+135	F	Reports Excalidraw use and building a diagram manager.
+136	F	Currently building a benchmark suite is an implied firsthand work report.
+137	F	Reports building and daily use of a reader since the start of the year.
+138	F	Reports creating a website and reviewing coconut water.
+139	F	Reports current course development and maintenance work.
+140	F	Reports 18 months of solo development and a team's trial.
+141	F	Reports buying cameras and developing a video player.
+142	F	Reports building a tutor and observing the writer's children use it.
+143	F	Reports ongoing work on an addressing system.
+144	F	Reports building an agent communication service.
+145	F	Reports this and last weekend's image-processing changes.
+146	F	Explicitly reports personal contributions despite mostly discussing a partner's work.
+147	F	Reports ongoing microscope-application development.
+148	F	Reports maintaining and improving an uptime service.
+149	G	General evaluation of C++ and an example of a possible mistake.
+150	F	Reports a recurring experience when writing non-algorithmic C++.
+151	F	Reports occasional C++ use and specific coding practices.
+152	G	Discusses language complexity; not knowing a module is not a concrete use account.
+153	F	Reports past C++ use roughly a decade ago, alongside a future plan.
+154	F	Explicitly describes the writer's current practice of using a limited feature set.
+155	F	Reports recently starting to learn C++.
+156	F	Reports a day job writing C and occasional C++ use.
+157	F	Reports stopping C++ use during the Boost era.
+158	F	Reports recently returning to C++23.
+159	F	Reports personally working on a particularly difficult C++ codebase.
+160	F	Reports a specific past reverse-engineering project.
+161	F	Reports previous C++ use and switching to Python.
+162	G	Expresses preferences and reluctance to disclose ideas without concrete work details.
+163	G	Expresses appreciation of language features.
+164	F	Reports a 2014 migration and observed business outcomes.
+165	F	Reports daily use at work and in free time.
+166	F	Reports using Claude in the writer's C++ workflow and observing compile time.
+167	F	Reports scientific-computing work and pre-v1 Rust contributions.
+168	G	General assertions and hypothetical scenarios without personal action.
+169	F	Reports switching family from Matrix to XMPP and the pitch used.
+170	G	Evaluates messenger features without identifying a personal use event.
+171	G	Recommends building a client.
+172	G	Imperative instructions and hypothetical outcomes do not establish that the writer did them.
+173	G	General advice about family adoption.
+174	G	Opinion and recommendation to build an app.
+175	G	Denies the action and recommends Signal; no concrete personal use described.
+176	F	Reports repeated attempts to persuade friends and actual messaging practices.
+177	G	Denial alone gives no concrete firsthand account under the text-only rule.
+178	G	Instruction about terminology.
+179	F	Reports successfully getting some people to install Signal.
+180	F	Reports leaving services, making calls, and family adoption of Matrix.
+181	F	Claims firsthand social contact and observations; the taxonomy does not assess truth.
+182	F	Reports changing the writer's app-adoption approach after experience with friends.
+183	F	Reports implementing an X11 application and an LLVM cleanup tool.
+184	F	Reports jewelry work with a spouse and a previous store placement.
+185	G	Describes a terminal concept without saying the writer built or uses it; thread title is excluded.
+186	F	Reports several years building different versions of a family wishlist app.
+187	F	Reports work difficulties and building a diagram tool with friends.
+188	F	Reports ongoing language-learning and iOS development.
+189	F	Reports building and benchmarking a MIDI extraction tool.
+190	F	Reports curating content and developing a Japanese-learning platform.
+191	F	Reports leaving a job and acquiring paying customers for an app.
+192	F	Reports building a directory and starting a hosting service.
+193	F	Recently worked on the app is an implied firsthand report despite subsequent promotion.
+194	F	Reports building a code-abstraction tool.
+195	F	Reports building and benchmarking an agent-memory tool.
+196	F	Reports developing a PDF API and encountering a specific footer problem.
+197	F	Reports learning from outage case studies and building interactive cases.
+198	F	Reports SQL-canvas and ingestion-pipeline development.
+199	G	Opinion about C++ versions.
+200	G	Future learning plan and request for advice.
+201	F	Reports writing a GUI library and five C++ books.
+202	F	Reports using C++ for microcontrollers.
+203	G	Enjoyment of coding is expressed without a concrete event or specific practice.
+204	F	Reports switching languages for a job and subsequent work history.
+205	F	Reports current professional C++23 work and recurring code changes.
+206	G	Preference for a style of C++ alone does not provide a concrete practice.
+207	G	Enjoyment of coding alone supplies no concrete event or practice.
+208	G	Expresses dislike and a rationale.
+209	G	Question only.
+210	G	Historical language evaluation without a personal event or use report.
+211	F	Reports an observation of the writer's own Claude generating C++.
+212	F	Reports decades of language learning and paid C++ work.
+213	G	Recommendation and broad assessment do not establish use of the service.

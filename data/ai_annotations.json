@@ -1,0 +1,1286 @@
+[
+  {
+    "id": "50485564",
+    "label": "general_response",
+    "reason": "Rhetorical question about value and soul; no firsthand event.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50485546",
+    "label": "general_response",
+    "reason": "The personal account is quoted; the writer contributes an opinion.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50483250",
+    "label": "general_response",
+    "reason": "Predicts difficulty distinguishing AI and human work.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50482371",
+    "label": "general_response",
+    "reason": "Suggests prompts and editing approaches without reporting using them.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50482984",
+    "label": "general_response",
+    "reason": "Recommends hiring an editor.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50481259",
+    "label": "general_response",
+    "reason": "Expresses a preference for human work.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50481656",
+    "label": "general_response",
+    "reason": "Agreement alone supplies no experience.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50485389",
+    "label": "general_response",
+    "reason": "Reading preferences and hypothetical summarization do not establish a concrete practice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50481224",
+    "label": "firsthand_report",
+    "reason": "Reports two recent authentication outages affecting the writer's agents.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50418273",
+    "label": "firsthand_report",
+    "reason": "Reports a layoff and building a CRM for the writer's father.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50418058",
+    "label": "firsthand_report",
+    "reason": "Describes the writer's ongoing OneBusAway development work.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424132",
+    "label": "firsthand_report",
+    "reason": "Reports shutting down a service and replacing a VPS today.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50418955",
+    "label": "firsthand_report",
+    "reason": "Describes personally reverse engineering a Samsung phone.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50419208",
+    "label": "firsthand_report",
+    "reason": "Reports ongoing work on stock visualizations.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50485347",
+    "label": "firsthand_report",
+    "reason": "Describes the port as an interesting learning process, implying firsthand development.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50418055",
+    "label": "firsthand_report",
+    "reason": "Reports server migration, lamp construction, and other current activities.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50418230",
+    "label": "firsthand_report",
+    "reason": "Reports team development and previous work building private clouds.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50392205",
+    "label": "firsthand_report",
+    "reason": "Reports launching an app while on maternity leave.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50420484",
+    "label": "firsthand_report",
+    "reason": "Reports building and revisiting a mains-frequency measurement tool.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424134",
+    "label": "firsthand_report",
+    "reason": "Reports building a browser in C and its present implementation state.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50418925",
+    "label": "firsthand_report",
+    "reason": "Reports launching and updating a browser extension.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50389922",
+    "label": "firsthand_report",
+    "reason": "Reports exercise-bike use and building and testing a game prototype.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50419720",
+    "label": "firsthand_report",
+    "reason": "Lists actual porting work and personally completed OpenSSL changes.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50425836",
+    "label": "general_response",
+    "reason": "Describes an app without identifying the writer as its maker or user.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50418570",
+    "label": "firsthand_report",
+    "reason": "Reports building sunset alerts over recent weeks.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424262",
+    "label": "firsthand_report",
+    "reason": "Reports sports-company employment and development of a scores site.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50481013",
+    "label": "firsthand_report",
+    "reason": "Reports replacing personal classification workflows.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50478231",
+    "label": "firsthand_report",
+    "reason": "Reports team use and optimization of Qwen2-7B.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50480367",
+    "label": "firsthand_report",
+    "reason": "Reports using the model in an RPG despite opening with advice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50470630",
+    "label": "general_response",
+    "reason": "Explains possible use cases without reporting an actual implementation.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50471474",
+    "label": "general_response",
+    "reason": "Recommends deterministic routing designs.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50470963",
+    "label": "general_response",
+    "reason": "General claim about specialized models.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50477768",
+    "label": "firsthand_report",
+    "reason": "Reports current use as a router with specific side effects.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50481531",
+    "label": "firsthand_report",
+    "reason": "Reports a current listening activity, with first person implied.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50481633",
+    "label": "general_response",
+    "reason": "Service-status assertion does not specify the writer's experience.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50481384",
+    "label": "firsthand_report",
+    "reason": "Reports watching particular reels, with first person implied.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50482151",
+    "label": "firsthand_report",
+    "reason": "Reports trying to send email through Outlook.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50481439",
+    "label": "firsthand_report",
+    "reason": "Reports reading a planning document and refreshing a status page.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50479040",
+    "label": "general_response",
+    "reason": "Asks a question and summarizes a novel without saying the writer read it.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50473877",
+    "label": "general_response",
+    "reason": "Sarcastic reaction and suggestion.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424564",
+    "label": "firsthand_report",
+    "reason": "Reports past and continuing C++ use and switching to Rust.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424058",
+    "label": "firsthand_report",
+    "reason": "Reports professional and personal C++ projects.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50423726",
+    "label": "general_response",
+    "reason": "Evaluates language capabilities without a concrete personal use account.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424131",
+    "label": "firsthand_report",
+    "reason": "Reports organizing a user group and migrating to Rust.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424293",
+    "label": "firsthand_report",
+    "reason": "Reports thesis work and replacing CUDA C++ with Python.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424320",
+    "label": "firsthand_report",
+    "reason": "Still writing C++ describes an ongoing specific practice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50423928",
+    "label": "firsthand_report",
+    "reason": "Reports using a C++ subset and reading a Rust book.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50423729",
+    "label": "general_response",
+    "reason": "Contrasts enjoyment and dread without a concrete event or practice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50435423",
+    "label": "firsthand_report",
+    "reason": "Reports embedded development and team build-system difficulties.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424551",
+    "label": "firsthand_report",
+    "reason": "Reports using C++ for embedded and Linux work.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50433150",
+    "label": "firsthand_report",
+    "reason": "Reports daily C++ writing and review.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424002",
+    "label": "general_response",
+    "reason": "Dislike of programming in C++ and syntax is stated as preference without concrete use detail.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50423995",
+    "label": "general_response",
+    "reason": "Praises C++ capabilities and RAII without a concrete practice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50423819",
+    "label": "firsthand_report",
+    "reason": "Reports stopping C++ work after switching to Rust.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50426709",
+    "label": "firsthand_report",
+    "reason": "Recalls experiencing compiler error messages in the early 1990s.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50429262",
+    "label": "firsthand_report",
+    "reason": "Reports first encountering C++ in 1992.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50480678",
+    "label": "firsthand_report",
+    "reason": "Recalls high-school viewing and recently finding HN.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50479978",
+    "label": "general_response",
+    "reason": "Predicts platform migration.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50480848",
+    "label": "general_response",
+    "reason": "Offers advice and hopes for AI's future.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50479881",
+    "label": "general_response",
+    "reason": "General explanation of spam and AI.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50479966",
+    "label": "firsthand_report",
+    "reason": "Reports leaving gaming a decade ago before offering advice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50467024",
+    "label": "firsthand_report",
+    "reason": "Reports visiting and observing a Costco food court.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50468713",
+    "label": "general_response",
+    "reason": "Explains machine safety without a personal event.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50466954",
+    "label": "general_response",
+    "reason": "Explains automation challenges and hypothetical environments.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50466921",
+    "label": "general_response",
+    "reason": "Hypothetical spending preferences do not report an actual purchase.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50476709",
+    "label": "firsthand_report",
+    "reason": "Reports previously working as a form carpenter.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50470387",
+    "label": "general_response",
+    "reason": "Predicts robot-friendly buildings.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50466574",
+    "label": "general_response",
+    "reason": "Explains safety and legal challenges.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50476766",
+    "label": "general_response",
+    "reason": "Installation recommendation and link only.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50466674",
+    "label": "general_response",
+    "reason": "Explains machine learning and gives hypothetical failure examples.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50466634",
+    "label": "general_response",
+    "reason": "General claim about automation economics.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50467718",
+    "label": "general_response",
+    "reason": "Opinion about reliability challenges.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50485498",
+    "label": "general_response",
+    "reason": "Hypothetical purchases and preferences; no actual robot use.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50466582",
+    "label": "general_response",
+    "reason": "Opinion and prediction about hardware costs.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50471082",
+    "label": "general_response",
+    "reason": "One-word cost assessment.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50475624",
+    "label": "general_response",
+    "reason": "One-word reaction.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50476967",
+    "label": "firsthand_report",
+    "reason": "Reports posting a product on Show HN and receiving particular responses.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50478802",
+    "label": "general_response",
+    "reason": "Social-media recommendation.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50470920",
+    "label": "general_response",
+    "reason": "Economic opinion and advice without personal action.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406654",
+    "label": "firsthand_report",
+    "reason": "Reports persuading family to adopt Signal and personal XMPP use.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406621",
+    "label": "general_response",
+    "reason": "Vague learned lesson gives no concrete personal event or practice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50405399",
+    "label": "general_response",
+    "reason": "Recommendations and a stated lack of Matrix use; contemplated setup is not completed work.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406587",
+    "label": "firsthand_report",
+    "reason": "Reports pitching and using a family XMPP server.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406365",
+    "label": "firsthand_report",
+    "reason": "Reports setting up chatmail and installing clients during an outage.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50405349",
+    "label": "firsthand_report",
+    "reason": "Reports making Snikket and moving family communication.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406054",
+    "label": "firsthand_report",
+    "reason": "Reports installing Conversations and disabling competing notifications.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50468388",
+    "label": "firsthand_report",
+    "reason": "Reports changing communication services for named friends.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50405853",
+    "label": "firsthand_report",
+    "reason": "Reports discovering family members' different privacy preferences while trying to switch.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50408606",
+    "label": "firsthand_report",
+    "reason": "Reports bridging services, helping users, and running a server.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50405770",
+    "label": "firsthand_report",
+    "reason": "Reports a move from Skype to Matrix after years of use.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50412834",
+    "label": "firsthand_report",
+    "reason": "Reports years of personal Signal communication.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406722",
+    "label": "general_response",
+    "reason": "Questions the motivation for persuading others.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50410555",
+    "label": "general_response",
+    "reason": "Denies doing the action and offers a general norm; no concrete positive account.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50407527",
+    "label": "firsthand_report",
+    "reason": "Reports getting the immediate household to use Matrix.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406658",
+    "label": "general_response",
+    "reason": "Question and recommendation.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406505",
+    "label": "general_response",
+    "reason": "Asks about workplace communication options.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406172",
+    "label": "firsthand_report",
+    "reason": "Reports a Plex adoption attempt and resulting account requests.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50476739",
+    "label": "general_response",
+    "reason": "General argument about security and collective action.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50460725",
+    "label": "general_response",
+    "reason": "Speculates about broad constraints on AI adoption.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50471350",
+    "label": "general_response",
+    "reason": "Opinion about delegation and intelligence.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50454291",
+    "label": "general_response",
+    "reason": "Opinion about access to capital.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50455378",
+    "label": "firsthand_report",
+    "reason": "Reports personally asking AI questions and repeatedly trying it on tasks.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50454235",
+    "label": "general_response",
+    "reason": "Opinion about imagination and AI-generated art.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50458709",
+    "label": "general_response",
+    "reason": "General assessment of generated code and context limits.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50454804",
+    "label": "general_response",
+    "reason": "Explains barriers to commercialization.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50453859",
+    "label": "general_response",
+    "reason": "Reports a change of opinion rather than a concrete firsthand event or practice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50453660",
+    "label": "firsthand_report",
+    "reason": "Reports an observation of intelligent people the writer personally knows.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50467758",
+    "label": "general_response",
+    "reason": "Opinion about turning ideas into action.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50455091",
+    "label": "general_response",
+    "reason": "Opinion about human inertia.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50458723",
+    "label": "firsthand_report",
+    "reason": "Reports Bitcoin development and use during specified years.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50461252",
+    "label": "general_response",
+    "reason": "General claims about real-world problem solving.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50462216",
+    "label": "firsthand_report",
+    "reason": "Reports witnessing a laptop setup while visiting Ward Christensen.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50463132",
+    "label": "firsthand_report",
+    "reason": "Describes first experiences of cinema and city life at age 23.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50468840",
+    "label": "firsthand_report",
+    "reason": "Reports childhood farm work and reading habits.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50459883",
+    "label": "general_response",
+    "reason": "Interpretation of fiction and speculation about future AI.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50475536",
+    "label": "firsthand_report",
+    "reason": "Reports observing a particular successful coding-agent session.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50471374",
+    "label": "firsthand_report",
+    "reason": "Recalls cassette, website creation, and dial-up experiences.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50459156",
+    "label": "firsthand_report",
+    "reason": "Explicitly reports having seen Blade Runner, despite asking an interpretation question.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50459617",
+    "label": "firsthand_report",
+    "reason": "Reports a first management role and its responsibilities.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50471729",
+    "label": "firsthand_report",
+    "reason": "Reports jobs, college, network work, and meeting birth family.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50459350",
+    "label": "general_response",
+    "reason": "General evaluation of HN without a concrete personal experience.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50427183",
+    "label": "firsthand_report",
+    "reason": "Reports usually skipping skill evaluations on the writer's own projects.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50437310",
+    "label": "general_response",
+    "reason": "Recommends evaluations and benchmarks.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50455406",
+    "label": "firsthand_report",
+    "reason": "Reports recently reading a particular job vacancy.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50453384",
+    "label": "general_response",
+    "reason": "Questions and frames a discussion about surveillance.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50453321",
+    "label": "firsthand_report",
+    "reason": "Reports ongoing IDE work and operating a Discord group.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50453117",
+    "label": "general_response",
+    "reason": "Generalized sarcastic claims about AI adoption.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50464056",
+    "label": "firsthand_report",
+    "reason": "Reports a specific interview experience before recommending an approach.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50461914",
+    "label": "firsthand_report",
+    "reason": "Reports observations across companies the writer works with.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50462370",
+    "label": "firsthand_report",
+    "reason": "Reports recurring interview experiences as a JavaScript programmer.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50425751",
+    "label": "firsthand_report",
+    "reason": "Reports Snagit use and building a replacement.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50417795",
+    "label": "firsthand_report",
+    "reason": "Reports current optimization of a React implementation, beyond planned migration.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50422296",
+    "label": "firsthand_report",
+    "reason": "Reports a layoff and current Rust and puzzle-game work.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50419911",
+    "label": "firsthand_report",
+    "reason": "Reports developing and demonstrating a competition environment.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50421762",
+    "label": "firsthand_report",
+    "reason": "Reports RSS-reader development and recently added capabilities.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50479501",
+    "label": "firsthand_report",
+    "reason": "Reports Excalidraw use and building a diagram manager.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50425176",
+    "label": "firsthand_report",
+    "reason": "Currently building a benchmark suite is an implied firsthand work report.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50391077",
+    "label": "firsthand_report",
+    "reason": "Reports building and daily use of a reader since the start of the year.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50420460",
+    "label": "firsthand_report",
+    "reason": "Reports creating a website and reviewing coconut water.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50420612",
+    "label": "firsthand_report",
+    "reason": "Reports current course development and maintenance work.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50423809",
+    "label": "firsthand_report",
+    "reason": "Reports 18 months of solo development and a team's trial.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50427167",
+    "label": "firsthand_report",
+    "reason": "Reports buying cameras and developing a video player.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424853",
+    "label": "firsthand_report",
+    "reason": "Reports building a tutor and observing the writer's children use it.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50473569",
+    "label": "firsthand_report",
+    "reason": "Reports ongoing work on an addressing system.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50420222",
+    "label": "firsthand_report",
+    "reason": "Reports building an agent communication service.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50420213",
+    "label": "firsthand_report",
+    "reason": "Reports this and last weekend's image-processing changes.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50418981",
+    "label": "firsthand_report",
+    "reason": "Explicitly reports personal contributions despite mostly discussing a partner's work.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424352",
+    "label": "firsthand_report",
+    "reason": "Reports ongoing microscope-application development.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50421853",
+    "label": "firsthand_report",
+    "reason": "Reports maintaining and improving an uptime service.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50428207",
+    "label": "general_response",
+    "reason": "General evaluation of C++ and an example of a possible mistake.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424287",
+    "label": "firsthand_report",
+    "reason": "Reports a recurring experience when writing non-algorithmic C++.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50433028",
+    "label": "firsthand_report",
+    "reason": "Reports occasional C++ use and specific coding practices.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424256",
+    "label": "general_response",
+    "reason": "Discusses language complexity; not knowing a module is not a concrete use account.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50453427",
+    "label": "firsthand_report",
+    "reason": "Reports past C++ use roughly a decade ago, alongside a future plan.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50432428",
+    "label": "firsthand_report",
+    "reason": "Explicitly describes the writer's current practice of using a limited feature set.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50429456",
+    "label": "firsthand_report",
+    "reason": "Reports recently starting to learn C++.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50437907",
+    "label": "firsthand_report",
+    "reason": "Reports a day job writing C and occasional C++ use.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424106",
+    "label": "firsthand_report",
+    "reason": "Reports stopping C++ use during the Boost era.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50429880",
+    "label": "firsthand_report",
+    "reason": "Reports recently returning to C++23.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50423980",
+    "label": "firsthand_report",
+    "reason": "Reports personally working on a particularly difficult C++ codebase.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50470210",
+    "label": "firsthand_report",
+    "reason": "Reports a specific past reverse-engineering project.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424086",
+    "label": "firsthand_report",
+    "reason": "Reports previous C++ use and switching to Python.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424383",
+    "label": "general_response",
+    "reason": "Expresses preferences and reluctance to disclose ideas without concrete work details.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50447830",
+    "label": "general_response",
+    "reason": "Expresses appreciation of language features.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424221",
+    "label": "firsthand_report",
+    "reason": "Reports a 2014 migration and observed business outcomes.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50427691",
+    "label": "firsthand_report",
+    "reason": "Reports daily use at work and in free time.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50423734",
+    "label": "firsthand_report",
+    "reason": "Reports using Claude in the writer's C++ workflow and observing compile time.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424809",
+    "label": "firsthand_report",
+    "reason": "Reports scientific-computing work and pre-v1 Rust contributions.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50407252",
+    "label": "general_response",
+    "reason": "General assertions and hypothetical scenarios without personal action.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50405952",
+    "label": "firsthand_report",
+    "reason": "Reports switching family from Matrix to XMPP and the pitch used.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406269",
+    "label": "general_response",
+    "reason": "Evaluates messenger features without identifying a personal use event.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50407822",
+    "label": "general_response",
+    "reason": "Recommends building a client.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50410570",
+    "label": "general_response",
+    "reason": "Imperative instructions and hypothetical outcomes do not establish that the writer did them.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50405882",
+    "label": "general_response",
+    "reason": "General advice about family adoption.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50405301",
+    "label": "general_response",
+    "reason": "Opinion and recommendation to build an app.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406785",
+    "label": "general_response",
+    "reason": "Denies the action and recommends Signal; no concrete personal use described.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50409914",
+    "label": "firsthand_report",
+    "reason": "Reports repeated attempts to persuade friends and actual messaging practices.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50410379",
+    "label": "general_response",
+    "reason": "Denial alone gives no concrete firsthand account under the text-only rule.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406233",
+    "label": "general_response",
+    "reason": "Instruction about terminology.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406659",
+    "label": "firsthand_report",
+    "reason": "Reports successfully getting some people to install Signal.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50407610",
+    "label": "firsthand_report",
+    "reason": "Reports leaving services, making calls, and family adoption of Matrix.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50417774",
+    "label": "firsthand_report",
+    "reason": "Claims firsthand social contact and observations; the taxonomy does not assess truth.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50412862",
+    "label": "firsthand_report",
+    "reason": "Reports changing the writer's app-adoption approach after experience with friends.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424725",
+    "label": "firsthand_report",
+    "reason": "Reports implementing an X11 application and an LLVM cleanup tool.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50428016",
+    "label": "firsthand_report",
+    "reason": "Reports jewelry work with a spouse and a previous store placement.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50389705",
+    "label": "general_response",
+    "reason": "Describes a terminal concept without saying the writer built or uses it; thread title is excluded.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424985",
+    "label": "firsthand_report",
+    "reason": "Reports several years building different versions of a family wishlist app.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50426572",
+    "label": "firsthand_report",
+    "reason": "Reports work difficulties and building a diagram tool with friends.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50428237",
+    "label": "firsthand_report",
+    "reason": "Reports ongoing language-learning and iOS development.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50419728",
+    "label": "firsthand_report",
+    "reason": "Reports building and benchmarking a MIDI extraction tool.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50421337",
+    "label": "firsthand_report",
+    "reason": "Reports curating content and developing a Japanese-learning platform.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50421858",
+    "label": "firsthand_report",
+    "reason": "Reports leaving a job and acquiring paying customers for an app.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50420179",
+    "label": "firsthand_report",
+    "reason": "Reports building a directory and starting a hosting service.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50419273",
+    "label": "firsthand_report",
+    "reason": "Recently worked on the app is an implied firsthand report despite subsequent promotion.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50417905",
+    "label": "firsthand_report",
+    "reason": "Reports building a code-abstraction tool.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50417938",
+    "label": "firsthand_report",
+    "reason": "Reports building and benchmarking an agent-memory tool.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50469974",
+    "label": "firsthand_report",
+    "reason": "Reports developing a PDF API and encountering a specific footer problem.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50446918",
+    "label": "firsthand_report",
+    "reason": "Reports learning from outage case studies and building interactive cases.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50417862",
+    "label": "firsthand_report",
+    "reason": "Reports SQL-canvas and ingestion-pipeline development.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50426119",
+    "label": "general_response",
+    "reason": "Opinion about C++ versions.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424506",
+    "label": "general_response",
+    "reason": "Future learning plan and request for advice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424196",
+    "label": "firsthand_report",
+    "reason": "Reports writing a GUI library and five C++ books.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50432534",
+    "label": "firsthand_report",
+    "reason": "Reports using C++ for microcontrollers.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50429615",
+    "label": "general_response",
+    "reason": "Enjoyment of coding is expressed without a concrete event or specific practice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50429463",
+    "label": "firsthand_report",
+    "reason": "Reports switching languages for a job and subsequent work history.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424559",
+    "label": "firsthand_report",
+    "reason": "Reports current professional C++23 work and recurring code changes.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424213",
+    "label": "general_response",
+    "reason": "Preference for a style of C++ alone does not provide a concrete practice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50445250",
+    "label": "general_response",
+    "reason": "Enjoyment of coding alone supplies no concrete event or practice.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424357",
+    "label": "general_response",
+    "reason": "Expresses dislike and a rationale.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50423856",
+    "label": "general_response",
+    "reason": "Question only.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50427331",
+    "label": "general_response",
+    "reason": "Historical language evaluation without a personal event or use report.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50423704",
+    "label": "firsthand_report",
+    "reason": "Reports an observation of the writer's own Claude generating C++.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50424603",
+    "label": "firsthand_report",
+    "reason": "Reports decades of language learning and paid C++ work.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  },
+  {
+    "id": "50406219",
+    "label": "general_response",
+    "reason": "Recommendation and broad assessment do not establish use of the service.",
+    "note": "AI-assisted label by Codex on 2026-11-16; not independently reviewed by student"
+  }
+]

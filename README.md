@@ -225,7 +225,9 @@ labeling and review, and training has not started.
 | F1 — `label_one` |  |  |  |
 | F1 — `label_two` |  |  |  |
 
-**What I predicted before I looked:**
+**What I predicted before I looked (AI-assisted, November 16, 2026):**
+I predict fine-tuning will outperform the zero-shot baseline on firsthand reports mixed with advice, because the training labels consistently prioritize concrete experience. This prediction was recorded before running either model.
+
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
 
