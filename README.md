@@ -241,7 +241,7 @@ The original criterion 4 is preserved; its independence condition was not measur
 missing or extra. `agreement_results.json` contains the script's actual output.
 
 The supplied key is saved as `data/staff_labels.csv`. All 30 labels and reasons were
-saved and committed in `f2643f0` **before reading or comparing the key**.
+saved and committed in `4c679cd` **before reading or comparing the key**.
 `data/ai_staff_annotations.json` contains the original reasons and label-file hash.
 The labels were not changed after comparison. `runs/agreement.log` records the
 successful run; the earlier missing-key log is retained as historical evidence.
