@@ -1,0 +1,290 @@
+[
+  {
+    "id": "50432534",
+    "text": "I only really use it for microcontrollers, but I love using it.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.7882994413375854,
+    "token_count": 20
+  },
+  {
+    "id": "50389705",
+    "text": "A proportional width font terminal. \"i\" and \"w\" shouldn't take up the same amount of horizontal space. We used to have to do that because computers were slow and we counted cycles and every bits mattered. We live in a land of plenty now though so we can spend cycles doing math so that ls -l/top/etc table output is still aligned but \"i\" and \"w\" can take up the appropriate amount of horizontal space.",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5000011920928955,
+    "token_count": 96
+  },
+  {
+    "id": "50470963",
+    "text": "posttrained models for a specific purpose usually outperforms model that are not posttrained for that purpose",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.7631073594093323,
+    "token_count": 24
+  },
+  {
+    "id": "50405853",
+    "text": "In trying, I discovered that most family members don't want to use anything that lets the government spy on its users, but one sibling is against privacy in general and only wants to use platforms that allow the government to spy on users, so there's no solution.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.565957248210907,
+    "token_count": 57
+  },
+  {
+    "id": "50455406",
+    "text": "I recently read a vacancy for a C/C++ engineer where they explicitly mentioned they don't use AI. I can't find it anymore and it was a small specific Dutch company, but at least that still happens. I can imagine in places where cybersecurity is important they may also not use it (except that those actually developing cybersecurity NEED to use it to keep up...).",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.8610950708389282,
+    "token_count": 89
+  },
+  {
+    "id": "50406722",
+    "text": "\u2026 why? Are you pushing this on people for their good, or for yours?",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.7085943818092346,
+    "token_count": 19
+  },
+  {
+    "id": "50406785",
+    "text": "Didn't. Use Signal instead. It's WhatsApp but blue. Nothing to explain.",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.7035729885101318,
+    "token_count": 23
+  },
+  {
+    "id": "50459617",
+    "text": "My first time in management, age 24, I ran the night network operations team for a network of about 300,000 users across three countries in two wars. I was a team lead over two to three direct personnel and a couple large organizations under indirect management.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.8991489410400391,
+    "token_count": 54
+  },
+  {
+    "id": "50470210",
+    "text": "I haven't been able to work in C++ for a few months now because of work and other projects, but I still love it, mostly because of how far down it lets you go. The last thing I used it for was reverse engineering Tarkov, only the PvE mode and not PvP because I'm not a dickhead, after a friend of mine was using a cheat there and I got curious whether I could build something similar myself.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.9261428117752075,
+    "token_count": 96
+  },
+  {
+    "id": "50463132",
+    "text": "Emerging from Amish-Mennonite life, also from deep Appalachia. Being twenty-three and experiencing cinema, rock music, and city life--not to mention a mall--for the first time was shattering, and poignant.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5869131684303284,
+    "token_count": 53
+  },
+  {
+    "id": "50468388",
+    "text": "These platforms die all the time, it's my job to pick the replacement when that happens. Ward used to love Skype, so that's what I used to chat with him. Now that he's gone, and Skype went corporate, I've switched to Discord for chats with my friend Jim.  I've got a VPS server with an instance of a local chat server if that dies, but it's nowhere near as polished.\n\nWhen you're the IT guy for the family, you just make a decision, and nobody else really cares about the details.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.9181681275367737,
+    "token_count": 124
+  },
+  {
+    "id": "50473877",
+    "text": "I know right? It's so bad, maybe you should leave.",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.6334812641143799,
+    "token_count": 17
+  },
+  {
+    "id": "50480678",
+    "text": "I was in high school in 2002 when a video series called Homestar Runner became popular. My favorite episodes had Strongbad answering emails. There was also a very popular short video around that time, a black and white cartoon called \"Rejected\" by Don Hertzfeldt with a stick character standing next to a cereal bowl and repeatedly saying, \"My spoon is too big\". Later in that same video another character announced over and over, \"My anus is bleeding!\"\n\nAs a teenager I found that stuff to be funny, but I'm sure my parents would've considered it internet slop. If my parents' generation had the ability to moderate  at that time, I doubt they would've allowed a cartoon about a bleeding anus.\n\nI'm not sure if there's a direct correlation here but my general point is humans will likely continue to find irreverent things enjoyable no matter how they're created and distributed. I like HN specifically because it prohibits AI posts, and only found it recently due to my dissatisfaction with Reddit. Others may not care as much and perhaps begin to enjoy their AI slop media of choice.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.9128012657165527,
+    "token_count": 237
+  },
+  {
+    "id": "50417905",
+    "text": "I built a new abstraction layer for code (https:// www.archme.io), as I believe it's no longer the right medium for understanding and collaboration in the era of AI and 10k LOC PRs.\n\nIt scans your codebase, turns it into permanent c4 & sequence diagrams and keeps them up to date on each commit. Then, instead of reviewing a 10k line coding PR, you review a 30 line change to sequence and C4 diagrams.\n\nnpm i -g @archme/cli && archme init to run it on your own computer, code never leaves your machine.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.9296701550483704,
+    "token_count": 132
+  },
+  {
+    "id": "50424853",
+    "text": "To help my kids preparing for an exam (and steer them away from asking Gemini for solutions), I\u2019ve built an iPad Kids Tutor app. \nThey can take a pic of a problem that they struggle with (initially for math but it works for any subject) and the harness then prepares a plan how to work through the issue using both claude and codex on the backend. \nIt\u2019s been fun to build and watch my kids start using it and actually enjoy it (ok, not always).",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.9316646456718445,
+    "token_count": 103
+  },
+  {
+    "id": "50418570",
+    "text": "I live in San Francisco and we get some beautiful sunsets here! Over the past few weeks, I cobbled together a system of alerts for when the sunset is predicted [1] to be particularly outstanding, resulting in this page that displays the prediction and also shows the current view from several cameras around the city.\n\nhttps://sunset.vtjeng.com/ (https://sunset.vtjeng.com/)\n\n[1]: Predictions are LLM-powered largely to more reliably consume the free-text descriptions in traditional (e.g., NWS) weather forecasts of predicted high and low cloud cover around sunset.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.933862030506134,
+    "token_count": 138
+  },
+  {
+    "id": "50475624",
+    "text": "good",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.592205286026001,
+    "token_count": 3
+  },
+  {
+    "id": "50468840",
+    "text": "I grew up on a farm, we had a lot of goats and on the weekends and summer I had to help out herding them between feeding spots, keep an eye on them (they're so good at jumping fences). I was very lonely and coped by reading all Jules Verne's books and then while herding the goats I'd daydream my own book spinoffs (with me as the main character, of course). I'd invent entire worlds around me in those oak forests. It's hard to explain how important that was for me, I now look back and cherish that time, those goats.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.9065744876861572,
+    "token_count": 135
+  },
+  {
+    "id": "50426709",
+    "text": "I can't claim to have ever liked it, sadly, as much as I like C. The language has a significant number of footguns (the FAQ is unbelievably expansive and would require superhuman effort to internalize).\n\nBut really it's the error messages. I remember them being awful in the early 90s, and they're still awful today. It is an inevitable comment from students who hadn't yet been exposed to it.\n\nI'd greenfield in Rust over C++ every time today, especially with LLMs involved. If I'm going to have slow compiles, I might as well get as much proof of correctness from the compiler as I can.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.9270172715187073,
+    "token_count": 147
+  },
+  {
+    "id": "50419208",
+    "text": "I am still working on fast and dense stock market related visualizations, example:\n\nDrawdown (from 52-week high) charts for top performing YTD stocks of the NASDAQ 100:\n\nhttps://chartrow.com/top-performers#view=drawdown&p=ytd&in=n... (https://chartrow.com/top-performers#view=drawdown&p=ytd&in=nasdaq100&gl=off)\n\nView the stock charts of holdings of an ETF like ARKK in a dense way:\n\nhttps://chartrow.com/quote/arkk/holdings#range=10y&ma=20%2C5... (https://chartrow.com/quote/arkk/holdings#range=10y&ma=20%2C50&view=charts&win=1y)\n\nMicrosoft business fundamental trends:\n\nhttps://chartrow.com/quote/msft/trends (https://chartrow.com/quote/msft/trends)\n\nVisualizing the top performing stocks in different ways:\n\nhttps://chartrow.com/top-performers#view=charts&p=ytd (https://chartrow.com/top-performers#view=charts&p=ytd)\n\nhttps://chartrow.com/top-performers#view=heatmap&p=ytd (https://chartrow.com/top-performers#view=heatmap&p=ytd)\n\nhttps://chartrow.com/top-performers#view=calendar&p=ytd (https://chartrow.com/top-performers#view=calendar&p=ytd)\n\nFeel free to change views from charts to table to heatmap etc. And it should feel responsive. Report any bugs to me and happy viewing. :)",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.9293590784072876,
+    "token_count": 418
+  },
+  {
+    "id": "50427331",
+    "text": "Everything added to C++ since 1989 has mostly made it worse.  Those inclined to disagree may want to consider how easily they drink someone else's kool-aid.\n\nBack then, \"the Stroustrup book\" was narrower and no thicker than the K&R book.  Average programmers could hold its entire conceptual content in their head, just like plain/good old C.  The language itself had a constrained vision of what it did better.  It had yet to become an inscrutable lapdog that made everything worse by trying (and righteously failing) to please every last someone.  Those halcyon days are long, long gone. :-)",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.5261654853820801,
+    "token_count": 136
+  },
+  {
+    "id": "50481836",
+    "text": "Fiction/Non fiction?\n\nIf its a text book I think you are looking at it the wrong way. Having someone who has spent serious amount of time on a subject, is like meeting someone who has explored some part of jungle I haven't visited. The info that has accumulated in your head through that process is what is interesting.\n\nI stopped reading books not because AI is mesmerizing but because I find the non-interactive nature of books irritating after too much AI use. ChatGPT allows me to stop and explore something, slow things down, bypass other things, connect it to other things etc etc\n\nMy suggestion would be make it interactive. Release it with an interactive interface rag or fine tuned to your ideas and content. Use your imagination on how that interactivity should be shaped.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.8337948322296143,
+    "token_count": 161
+  },
+  {
+    "id": "50455378",
+    "text": "Distrust is definitely part of it, \"smarter than almost everyone\" isn't quite an accurate statement (it is more widely knowledgeable for sure, but \"understanding\" is still under-defined sometimes).\n\nLack of imagination is also part of it I'm sure... looking at the silly things some people ask AI (tbh so do I though, out of curiosity) but failing to use it for what's truly important and where it can add value (this is what I try to pursue, mostly by just trying it a lot on anything, without stopping to think for myself).",
+    "true_label": "firsthand_report",
+    "predicted_label": "general_response",
+    "confidence": 0.6227372884750366,
+    "token_count": 124
+  },
+  {
+    "id": "50482145",
+    "text": "If you want human readers - remember that roughly zero humans will ever read even 0.01% of the world's human-written books.  Sticking your head down the \"human author vs. AI author\" rabbit hole may be a poor use of time.\n\nOr - back when electric typewriters were cutting-edge tech, only a puny percentage of human-written books were accepted for publication.  Writing well is difficult.  Look at bio's of famous authors - roughly zero mastered the skill after only 18 month and one book draft.",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.7431803941726685,
+    "token_count": 111
+  },
+  {
+    "id": "50437310",
+    "text": "Evals and benchmarks lol. Make the eval to see what the AI should be doing, benchmark to see what the whole landscape is doing. Refine and repeat and that\u2019ll make it better",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.7313722968101501,
+    "token_count": 45
+  },
+  {
+    "id": "50459883",
+    "text": "I think it's interesting to interpret \"Tears in the Rain\" less broadly. The AI that we have today has much less than a four year \"lifespan\". It \"expires\" as soon as we stop typing into a session.\n\nInterestingly, the best models can produce convincing poetry despite a lack of lived experience.\n\nAs realtime avatars and robots become more advanced, we will start to wonder more if somehow a system has some kind of consciousness, and then about real moral concerns. As technology practitioners, within a few years, our \"tears in the rain\" moments could come from actual interactions with AI.\n\nBut part of the point was about mortality being an aspect of nature to be accepted with grace. I think that's a practical reaction, and the typical attitude towards robots and mortality that a literature major or maybe just the average human would have.\n\nBut I believe that someone who really understands technology, and I would go so far as to say evolution (in the context of high technology), questions the optimality or at least necessity of natural death.",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.6204291582107544,
+    "token_count": 218
+  },
+  {
+    "id": "50470795",
+    "text": "Relic AI: https://app.relic-app.com (https://app.relic-app.com)\n\nThree of us in Sarajevo are building it.\n\nIt started because we kept saving things such as articles, Youtube lectures and podcasts, leaving open tabs as reminders for things to come back to later, but couldn't find those resources when we actually needed them, most of the time ending up redoing the research over again.\n\nWe have a browser extension for easy saving. It currently supports the page you're on, a PDF tab, all your open tabs, your bookmarks, and Youtube videos (including playlists). Each save gets a summary and tags. Then you can ask it questions, and it answers only from what you saved, with numbered sources. If nothing relevant is saved about what you are asking, it says so.\n\nIt's free during the beta and we are actively shipping new features based on user feedback.\n\nI\u2019d love to hear as much feedback as possible.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.8992722034454346,
+    "token_count": 213
+  },
+  {
+    "id": "50480367",
+    "text": "If DeepSeek works better, use it. The benefit is faster, cheaper, and more accurate.\n\nI'm using it in a RPG where it decides what dice to roll and what difficulty is needed to pass. Proper gen AI can handle the outcome of that roll.",
+    "true_label": "firsthand_report",
+    "predicted_label": "general_response",
+    "confidence": 0.5876221060752869,
+    "token_count": 57
+  },
+  {
+    "id": "50466674",
+    "text": "It's machine learning.\n\nThe process looks good for code and maths, but code has a fast feedback loop starting with \"does it compile\" and \"do these unit tests pass?\". It's OK to train models which start off with compiler errors 99.99% of the time and keep improving until it's >0.1% and it can just read and correct when those remaining errors happen.\n\nDo that with a CNC milling machine, and it will drill through its own robotic arms a billion times before it gets good.\n\nRemember: Tesla's fleet has about a trillion miles of real-world experience at this point, and yet the cybercab is extremely geofenced.",
+    "true_label": "general_response",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.6861260533332825,
+    "token_count": 146
+  },
+  {
+    "id": "50420612",
+    "text": "Just trying to keep https://www.boot.dev (https://www.boot.dev) alive and kicking amidst this wave of AI doomerism surrounding... The value of being good at things.\n\nWorking on an in-browser update of our k8s course, a new C course, as well as terraform and bash courses coming down the pipe.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.8799971342086792,
+    "token_count": 81
+  },
+  {
+    "id": "50432428",
+    "text": "The criticism is absolutely right on the money. However, you can choose to ignore the more complicated parts and use only the ones you know (well). That's what I'm mostly doing.\n\nI've felt for at least the last two decades that C++ is trying to solve everyone's problems, no matter how obscure.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.5547001957893372,
+    "token_count": 72
+  },
+  {
+    "id": "50475536",
+    "text": "About 2 years ago, claude only had 200k(250k?) context; Even with clear instructions, the agents were not that disciplined; they usually suffered from attention deficit and they would start hallucinating in first 20 minutes. The subsystem that was being built had implementation plan, and a checkpoint file, which many agents didn't even bother to update frequently, so when a session occasionally crashed, it took a bit to resume the work. Most sessions would not last more then an hour or so.\n\nOne night, after a series of mediocre agents, a new session started, and the new agent started off by reading the plan, summarized the tasks ahead, and continued the implementation, frequently updated the checkpoints, and listed the status of tasks already done and pending.. this went on for the next 45 minutes and when the job was done the session ended. This was like a magic, seeing a master at work..\n\nSince then I've wondered sometimes, if an enterprise grade llm (if there is such a thing) got misallocated to my task for that session.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.6837089657783508,
+    "token_count": 228
+  },
+  {
+    "id": "50477768",
+    "text": "i\u2019m using it as a router.\n\ni have side effects (schedule alert, assign to, set priority, etc)\n\nit\u2019s cheaper and faster to decide next secondary action (s) in addition to the primary action.\n\nit keeps primary action focused and easier for evals.",
+    "true_label": "firsthand_report",
+    "predicted_label": "firsthand_report",
+    "confidence": 0.6577483415603638,
+    "token_count": 60
+  },
+  {
+    "id": "50461252",
+    "text": "No. It's reality. Real problems are the three body problems plus chaos theory\n\nWe aren't solving shit even with agi. People are so far up their asses, it's unbelievable.\n\nWe have had the ability to feed the world for 50 years, the problem is not about quantity. It's distribution and unintended quantity, wicked problems, paradoxical results and simple cellular automate.\n\nThere's so many classes of problems that have zero algorithmic basis.",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.7570814490318298,
+    "token_count": 101
+  },
+  {
+    "id": "50481531",
+    "text": "Listening to Studio Ghibli music. It relaxes.",
+    "true_label": "firsthand_report",
+    "predicted_label": "general_response",
+    "confidence": 0.570795476436615,
+    "token_count": 15
+  },
+  {
+    "id": "50454804",
+    "text": "Is taking advantage of Ai, related to financial gains?  It is not the lack of imagination that stops people.  They have to produce a product that is superior and market it and that requires capital and long term persistence.  To top that off, more financially  secure parties acquire patents and capital and monetize it. Zillions of people are looking for a way to capitalize on Ai and only a few get lucky.",
+    "true_label": "general_response",
+    "predicted_label": "general_response",
+    "confidence": 0.7958305478096008,
+    "token_count": 86
+  }
+]

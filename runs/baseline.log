@@ -1,0 +1,30 @@
+Using your definitions from label_definitions.txt.
+Reading the held-out posts from test_split.csv — the same ones your
+trained model was scored on.
+
+Classifying 36 posts across 2 labels.
+A few seconds each — this is what no fine-tuning costs at runtime.
+
+Loading facebook/bart-large-mnli (first run downloads ~1.6 GB)…
+Device set to use mps:0
+  1/36  2/36  3/36  4/36  5/36  6/36  7/36  8/36  9/36  10/36  11/36  12/36  13/36  14/36  15/36  16/36  17/36  18/36  19/36  20/36  21/36  22/36  23/36  24/36  25/36  26/36  27/36  28/36  29/36  30/36  31/36  32/36  33/36  34/36  35/36  36/36                              accuracy  0.667
+macro F1  0.468
+
+  firsthand_report F1 0.793   (n=23)
+  general_response F1 0.143   (n=13)
+
+
+Paste this into your README under **Baseline vs. Trained**:
+
+| Measure | Baseline | Trained | Difference |
+|---|---|---|---|
+| Overall accuracy | 0.667 | 0.667 | +0.000 |
+| Macro F1 | 0.468 | 0.468 | -0.000 |
+| F1 — `firsthand_report` | 0.793 | 0.793 | +0.000 |
+| F1 — `general_response` | 0.143 | 0.143 | -0.000 |
+
+Wrote baseline_results.json. Commit it.
+
+Before you look at your trained model's numbers: write one sentence
+predicting where it will beat this. Milestone 1 asks for it, and a
+prediction made after the fact isn't one.
